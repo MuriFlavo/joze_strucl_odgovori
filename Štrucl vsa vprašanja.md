@@ -488,11 +488,12 @@ _odgovor:_
 
 > [!warning] VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE
 
-![[Šola/štrucl_slike/kaj_naredi_naslednji_sql_ukaz/1.png]]
+![slika1](Šola/štrucl_slike/kaj_naredi_naslednji_sql_ukaz/1.png)
 ```
 če je to mogoče, vstavi novo vrstico in nastavi vrednosti na privzete vrednosti
 ```
-![[Šola/štrucl_slike/kaj_naredi_naslednji_sql_ukaz/2.png]]
+
+![slika2](Šola/štrucl_slike/kaj_naredi_naslednji_sql_ukaz/2.png)
 ```
 če je to mogoče, podvoji vse zapise v tabeli
 ```
@@ -506,83 +507,83 @@ _odgovor:_
 
 > [!warning] VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE. TO JE DEL TEORIJE, JAVA IMA SVOJ DEL
 
-![[Šola/štrucl_slike/pisni_preizkus_1/1.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/1.png)
 ```
 MIN (Price)
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/2.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/2.png)
 ```
 INSERT INTO VALUES
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/3.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/3.png)
 ```
 SELECT
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/4.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/4.png)
 ```
 PostalCode IS NOT NULL
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/5.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/5.png)
 ```
 PostalCode IS NULL
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/6.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/6.png)
 ```
 MAX (Price)
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/7.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/7.png)
 ```
 AVG (Price)
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/8.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/8.png)
 ```
 COUNT WHERE
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/9.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/9.png)
 ```
 VALUES ()
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/10.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/10.png)
 ```
 SELECT *
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/11.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/11.png)
 ```
 INSERT INTO VALUES
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/12.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/12.png)
 ```
 FROM WHERE
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/13.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/13.png)
 ```
 SUM (Price)
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/14.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/14.png)
 ```
 UPDATE SET WHERE
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/15.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/15.png)
 ```
 UPDATE SET , Country
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/16.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/16.png)
 ```
 UPDATE SET WHERE
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/17.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/17.png)
 ```
 INSERT INTO ( ) VALUES ( )
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/18.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/18.png)
 ```
 INSERT VALUES (
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/19.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/19.png)
 ```
 UPDATE SET
 ```
-![[Šola/štrucl_slike/pisni_preizkus_1/20.png]]
+![](Šola/štrucl_slike/pisni_preizkus_1/20.png)
 ```
 DELETE FROM WHERE
 ```
@@ -735,7 +736,7 @@ Podana je naslednja naloga. Izberi vse pravilne trditve. Ena sama napaka pomeni 
 ```
 _odgovor:_
 
-![[Šola/štrucl_slike/java/1.png]]
+![](Šola/štrucl_slike/java/1.png)
 ```
 Nalogo je mogoče rešiti z rabo zanke while.
 ```
@@ -778,7 +779,7 @@ _odgovor:_
 
 > [!warning] NALOGA D3 IMA DVE PODOBNI SLIKI
 
-![[Šola/štrucl_slike/java/2.png]]
+![](Šola/štrucl_slike/java/2.png)
 ```
 Če vnesemo 7 program izpiše 7
 ```
@@ -792,7 +793,7 @@ _odgovor:_
 Program ima logično napako in ne deluje pravilno
 ```
 
-![[Šola/štrucl_slike/java/3.png]]
+![](Šola/štrucl_slike/java/3.png)
 ```
 Če vnesemo 7 program izpiše 7
 ```
@@ -809,6 +810,8 @@ _odgovor:_
 
 > [!warning] POGLEJ PUBLIC CLASS (NALOGA_D1 IN NALOGA_D2)
 
+![](Šola/štrucl_slike/java/4.png)
+![](Šola/štrucl_slike/java/5.png)
 ```
 2
 ```
@@ -836,57 +839,57 @@ _odgovor:_
 
 > [!warning] VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE. TO JE DEL JAVE, TEORIJA IMA SVOJ DEL
 
-![[Šola/štrucl_slike/java/6.png]]
+![](Šola/štrucl_slike/java/6.png)
 ```
 static shoot () ;
 ```
 
-![[Šola/štrucl_slike/java/7.png]]
+![](Šola/štrucl_slike/java/7.png)
 ```
 ()
 ```
 
-![[Šola/štrucl_slike/java/8.png]]
+![](Šola/štrucl_slike/java/8.png)
 ```
 void
 ```
 
-![[Šola/štrucl_slike/java/9.png]]
+![](Šola/štrucl_slike/java/9.png)
 ```
 int * doubleNum
 ```
 
-![[Šola/štrucl_slike/java/10.png]]
+![](Šola/štrucl_slike/java/10.png)
 ```
 int a sum ,
 ```
 
-![[Šola/štrucl_slike/java/11.png]]
+![](Šola/štrucl_slike/java/11.png)
 ```
 int num x return
 ```
 
-![[Šola/štrucl_slike/java/12.png]]
+![](Šola/štrucl_slike/java/12.png)
 ```
 boolean if true return
 ```
 
-![[Šola/štrucl_slike/java/13.png]]
+![](Šola/štrucl_slike/java/13.png)
 ```
 int , return sum
 ```
 
-![[Šola/štrucl_slike/java/14.png]]
+![](Šola/štrucl_slike/java/14.png)
 ```
 static area , out res
 ```
 
-![[Šola/štrucl_slike/java/15.png]]
+![](Šola/štrucl_slike/java/15.png)
 ```
 static void login
 ```
 
-![[Šola/štrucl_slike/java/16.png]]
+![](Šola/štrucl_slike/java/16.png)
 ```
 void { name else
 ```
@@ -930,12 +933,12 @@ _odgovor:_
 
 > [!warning] ISTO VPRAŠANJE DRUGA SLIKICA
 
-![[Šola/štrucl_slike/java/17.png]]
+![](Šola/štrucl_slike/java/17.png)
 ```
 4
 ```
 
-![[Šola/štrucl_slike/java/18.png]]
+![](Šola/štrucl_slike/java/18.png)
 ```
 9
 ```
@@ -947,7 +950,7 @@ Vnesi pravilen odgovor!
 ```
 _odgovor:_
 
-![[Šola/štrucl_slike/java/19.png]]
+![](Šola/štrucl_slike/java/19.png)
 ```
 2
 ```

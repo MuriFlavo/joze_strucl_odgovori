@@ -449,27 +449,32 @@ _odgovor:_
 
 > [!warning] VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE
 
-![[1.png]]
+![slika1](štrucl_slike/kateremu_besedilu_ustreza_prikazan_sql_ukaz/1.png)
 ```
 Kolikšen je BDP na prebivalca v posamezni regiji?
 ```
-![[2.png]]
+
+![slika2](štrucl_slike/kateremu_besedilu_ustreza_prikazan_sql_ukaz/2.png)
 ```
 Koliko je vseh regij? Stolpec poimenujte: Število vseh regij
 ```
-![[3.png]]
+
+![slika3](štrucl_slike/kateremu_besedilu_ustreza_prikazan_sql_ukaz/3.png)
 ```
 Kolikšen je BDP na prebivalca v evropski regiji?
 ```
-![[4.png]]
+
+![slika4](štrucl_slike/kateremu_besedilu_ustreza_prikazan_sql_ukaz/4.png)
 ```
 Izpiši št, državo, regijo in BDP na prebivalca za vse države, ki imajo višji BDP na prebivalca od Slovenije. Prikazane naj bodo od naraščajoče po BDP na prebivalca.
 ```
-![[5.png]]
+
+![slika5](štrucl_slike/kateremu_besedilu_ustreza_prikazan_sql_ukaz/5.png)
 ```
 Izpiši št, državo, regijo in BDP na prebivalca za državo z najnižjim in za državo z najvišjim BDP na prebivalca (prikazani naj bosta v navedenem vrstnem redu).
 ```
-![[6.png]]
+
+![slika6](štrucl_slike/kateremu_besedilu_ustreza_prikazan_sql_ukaz/6.png)
 ```
 Izpiši državo, regijo in površino najmanjše države v vsaki regiji. Prikazane naj bodo od največje do najmanjše.
 ```

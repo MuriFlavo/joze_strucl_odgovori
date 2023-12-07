@@ -183,7 +183,7 @@ Imamo dve tabeli, ki sta povezani preko ustreznih dveh polj. Izberi vse ustrezne
 ```
 _odgovor:_
 
-> [!warning] VEČ NALOG Z ISTIM VPRAŠANJEM, IMA 2 ODGOVORA
+> [!warning] :warning: VEČ NALOG Z ISTIM VPRAŠANJEM, IMA 2 ODGOVORA
 
 ```
 SQL SELECT ukaz, kjer uporabimo povezovanje z LEFT JOIN nam vrne največje število vrstic
@@ -450,7 +450,7 @@ Kateremu besedilu ustreza prikazan SQL ukaz?
 ```
 _odgovor:_
 
-> [!warning] VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE
+> [!warning] :warning: VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE
 
 ![slika1](štrucl_slike/kateremu_besedilu_ustreza_prikazan_sql_ukaz/1.png)
 ```
@@ -489,7 +489,7 @@ Kaj naredi naslednji SQL ukaz?
 ```
 _odgovor:_
 
-> [!warning] VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE
+> [!warning] :warning: VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE
 
 ![slika1](štrucl_slike/kaj_naredi_naslednji_sql_ukaz/1.png)
 ```
@@ -508,7 +508,7 @@ Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in vel
 ```
 _odgovor:_
 
-> [!warning] VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE. TO JE DEL TEORIJE, JAVA IMA SVOJ DEL
+> [!warning] :warning: VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE. TO JE DEL TEORIJE, JAVA IMA SVOJ DEL
 
 ![](štrucl_slike/pisni_preizkus_1/1.png)
 ```
@@ -649,7 +649,7 @@ NE
 ---
 _vprašanje:_
 
-> [!warning] NASLEDNJI DVE VPRAŠANJI STA SI PODOBNI PAZ, DA JE NAPISANO ČISTO ENAKO
+> [!warning] :warning: NASLEDNJI DVE VPRAŠANJI STA SI PODOBNI PAZ, DA JE NAPISANO ČISTO ENAKO
 
 ```
 Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! Pazi! Štejejo se tudi morebitne prazne vrstice v izpisu programa.
@@ -672,7 +672,7 @@ _odgovor:_
 ---
 _vprašanje:_
 
-> [!warning] NASLEDNJI DVE VPRAŠANJI STA SI PODOBNI PAZ, DA JE NAPISANO ČISTO ENAKO
+> [!warning] :warning: NASLEDNJI DVE VPRAŠANJI STA SI PODOBNI PAZ, DA JE NAPISANO ČISTO ENAKO
 
 ```
 Koliko spremenljivk je uporabljenih v programu na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! Argumenta metode main() ne štej za spremenljivko.
@@ -699,7 +699,7 @@ Izberi vse pravilne trditve. Ena sama napaka pomeni 0 točk. (GREEN FOOT)
 ```
 _odgovor:_
 
-> [!warning] TUKAJ STA DVE NALOGI, KI STA SI ZELO PODOBNI, TREBA JE UPORABIT VSE MOŽNOSTI, KI JIH LAHKO V VSAKI NALOGI (NEKATERE ODGOVORE SI DELITA)
+> [!warning] :warning: TUKAJ STA DVE NALOGI, KI STA SI ZELO PODOBNI, TREBA JE UPORABIT VSE MOŽNOSTI, KI JIH LAHKO V VSAKI NALOGI (NEKATERE ODGOVORE SI DELITA)
 
 ```
 Michael Kölling je vodja razvojne skupine za okolje Greenfoot
@@ -756,7 +756,7 @@ Nalogo je mogoče rešiti z rabo zanke do while.
 ---
 _vprašanje:_
 
-> [!warning] TUKAJ IMAMO 3 PODOBNE SLIKE NA KATERA SE NANAŠA NEKAJ VPRAŠANJ (ODGOVORI SO ZAPISANI V ENAKEM ZAPOREDJU, KOT SO NAVEDENA VPRAŠANJA)
+> [!warning] :warning: TUKAJ IMAMO 3 PODOBNE SLIKE NA KATERA SE NANAŠA NEKAJ VPRAŠANJ (ODGOVORI SO ZAPISANI V ENAKEM ZAPOREDJU, KOT SO NAVEDENA VPRAŠANJA)
 
 ```
 Ali je ta program brez napak in bi dejansko deloval?
@@ -780,7 +780,7 @@ Podana je naslednja koda programa. Izberi vse pravilne trditve. Ena sama napaka 
 ```
 _odgovor:_
 
-> [!warning] NALOGA D3 IMA DVE PODOBNI SLIKI
+> [!warning] :warning: NALOGA D3 IMA DVE PODOBNI SLIKI
 
 ![](štrucl_slike/java/2.png)
 ```
@@ -811,7 +811,7 @@ Koliko vrstic se izpiše med izvedbo programa na sliki? Odgovoriti moraš z vnos
 ```
 _odgovor:_
 
-> [!warning] POGLEJ PUBLIC CLASS (NALOGA_D1 IN NALOGA_D2)
+> [!warning] :warning: POGLEJ PUBLIC CLASS (NALOGA_D1 IN NALOGA_D2)
 
 ![](štrucl_slike/java/4.png)
 ![](štrucl_slike/java/5.png)
@@ -840,7 +840,7 @@ Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in vel
 ```
 _odgovor:_
 
-> [!warning] VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE. TO JE DEL JAVE, TEORIJA IMA SVOJ DEL
+> [!warning] :warning: VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE. TO JE DEL JAVE, TEORIJA IMA SVOJ DEL
 
 ![](štrucl_slike/java/6.png)
 ```
@@ -934,7 +934,7 @@ Koliko vrstic izpiše naslednji program?
 ```
 _odgovor:_
 
-> [!warning] ISTO VPRAŠANJE DRUGA SLIKICA
+> [!warning] :warning: ISTO VPRAŠANJE DRUGA SLIKICA
 
 ![](štrucl_slike/java/17.png)
 ```

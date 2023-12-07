@@ -216,7 +216,7 @@ _odgovor:_
 ```
 
 ---
-# Teorija
+# Teorija:
 
 ---
 _vprašanje:_
@@ -589,7 +589,7 @@ DELETE FROM WHERE
 ```
 
 ---
-# Java
+# Java:
 
 ---
 _vprašanje:_

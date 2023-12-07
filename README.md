@@ -127,6 +127,9 @@ SELECT država, površina FROM države WHERE površina > 300000 ORDER BY površi
 ---
 _vprašanje:_
 ```
+Kateri SQL ukaz je avtor uporabil za rešitev prikazane naloge, oziroma katere izmed prikazanih poizvedb (A, B, C, D) vrne rezultat, ki je prikazan na sliki? Pazi, naloga je tipa izberi vse pravilne!
+```
+```
 Kateri SQL ukaz je avtor uporabil za rešitev prikazane naloge, oziroma katere izmed prikazanih poizvedb (A, B, C, D) vrnejo rezultat, ki je prikazan na sliki?
 ```
 _odgovor:_

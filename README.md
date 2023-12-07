@@ -134,7 +134,8 @@ Kateri SQL ukaz je avtor uporabil za rešitev prikazane naloge, oziroma katere i
 ```
 _odgovor:_
 
-> [!WARNING] :warning: POGLEJ SLIKO
+> [!WARNING]
+> POGLEJ SLIKO
 
 ```
 SQL_Naloga_1 | poizvedbo A

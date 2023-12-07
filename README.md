@@ -134,7 +134,7 @@ Kateri SQL ukaz je avtor uporabil za rešitev prikazane naloge, oziroma katere i
 ```
 _odgovor:_
 
-> [!WARNING]
+> [!WARNING]  
 > POGLEJ SLIKO
 
 ```
@@ -184,7 +184,8 @@ Imamo dve tabeli, ki sta povezani preko ustreznih dveh polj. Izberi vse ustrezne
 ```
 _odgovor:_
 
-> [!warning] :warning: VEČ NALOG Z ISTIM VPRAŠANJEM, IMA 2 ODGOVORA
+> [!WARNING]
+> VEČ NALOG Z ISTIM VPRAŠANJEM, IMA 2 ODGOVORA
 
 ```
 SQL SELECT ukaz, kjer uporabimo povezovanje z LEFT JOIN nam vrne največje število vrstic
@@ -451,34 +452,41 @@ Kateremu besedilu ustreza prikazan SQL ukaz?
 ```
 _odgovor:_
 
-> [!warning] :warning: VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE
+> [!WARNING] 
+> VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE
 
 ![slika1](štrucl_slike/kateremu_besedilu_ustreza_prikazan_sql_ukaz/1.png)
+`SELECT regija, ROUND((SUM(BDP) / SUM(prebivalstvo)), 0)`
 ```
 Kolikšen je BDP na prebivalca v posamezni regiji?
 ```
 
 ![slika2](štrucl_slike/kateremu_besedilu_ustreza_prikazan_sql_ukaz/2.png)
+``SELECT COUNT(DISTINCT regija) AS `Število vseh regija` FROM države``
 ```
 Koliko je vseh regij? Stolpec poimenujte: Število vseh regij
 ```
 
 ![slika3](štrucl_slike/kateremu_besedilu_ustreza_prikazan_sql_ukaz/3.png)
+`SELECT ROUND((SELECT SUM(BDP)`
 ```
 Kolikšen je BDP na prebivalca v evropski regiji?
 ```
 
 ![slika4](štrucl_slike/kateremu_besedilu_ustreza_prikazan_sql_ukaz/4.png)
+`SELECT št, država, regija, BDP/prebivalstvo AS 'BDP na prebivalca'`
 ```
 Izpiši št, državo, regijo in BDP na prebivalca za vse države, ki imajo višji BDP na prebivalca od Slovenije. Prikazane naj bodo od naraščajoče po BDP na prebivalca.
 ```
 
 ![slika5](štrucl_slike/kateremu_besedilu_ustreza_prikazan_sql_ukaz/5.png)
+`(SELECT št, država, regija, BDP/prebivalstvo AS 'BDP na prebivalca'`
 ```
 Izpiši št, državo, regijo in BDP na prebivalca za državo z najnižjim in za državo z najvišjim BDP na prebivalca (prikazani naj bosta v navedenem vrstnem redu).
 ```
 
 ![slika6](štrucl_slike/kateremu_besedilu_ustreza_prikazan_sql_ukaz/6.png)
+`SELECT država, regija, površina`
 ```
 Izpiši državo, regijo in površino najmanjše države v vsaki regiji. Prikazane naj bodo od največje do najmanjše.
 ```
@@ -490,14 +498,17 @@ Kaj naredi naslednji SQL ukaz?
 ```
 _odgovor:_
 
-> [!warning] :warning: VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE
+> [!WARNING] 
+> VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE
 
 ![slika1](štrucl_slike/kaj_naredi_naslednji_sql_ukaz/1.png)
+`INSERT INTO ime_tabele () VALUES ();`
 ```
 če je to mogoče, vstavi novo vrstico in nastavi vrednosti na privzete vrednosti
 ```
 
 ![slika2](štrucl_slike/kaj_naredi_naslednji_sql_ukaz/2.png)
+`INSERT INTO ime_tabele SELECT * FROM ime_tabele; `
 ```
 če je to mogoče, podvoji vse zapise v tabeli
 ```
@@ -509,85 +520,125 @@ Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in vel
 ```
 _odgovor:_
 
-> [!warning] :warning: VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE. TO JE DEL TEORIJE, JAVA IMA SVOJ DEL
+> [!WARNING] 
+> VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE. TO JE DEL TEORIJE, JAVA IMA SVOJ DEL
 
-![](štrucl_slike/pisni_preizkus_1/1.png)
+![štrucl_slike/pisni_preizkus_1/1.png](štrucl_slike/pisni_preizkus_1/1.png)
+`Use the MIN function to select the record with the smallest value of the Price column.`
 ```
 MIN (Price)
 ```
-![](štrucl_slike/pisni_preizkus_1/2.png)
+
+![štrucl_slike/pisni_preizkus_1/2.png](štrucl_slike/pisni_preizkus_1/2.png)
+`Vstavi manjkajoče dele SQL ukaza za vzstavljanje podatkov! Prva splošna oblika:`
 ```
 INSERT INTO VALUES
 ```
-![](štrucl_slike/pisni_preizkus_1/3.png)
+
+![štrucl_slike/pisni_preizkus_1/3.png](štrucl_slike/pisni_preizkus_1/3.png)
+`Vstavi manjkajoče dele SQL ukaza za vzstavljanje podatkov! Zelo uporabna je tudi povezava INSERT in SELECT stavkov.`
 ```
 SELECT
 ```
-![](štrucl_slike/pisni_preizkus_1/4.png)
+
+![štrucl_slike/pisni_preizkus_1/4.png](štrucl_slike/pisni_preizkus_1/4.png)
+`Select all records from the Customers where the PostalCode column is NOT empty.`
 ```
 PostalCode IS NOT NULL
 ```
-![](štrucl_slike/pisni_preizkus_1/5.png)
+
+![štrucl_slike/pisni_preizkus_1/5.png](štrucl_slike/pisni_preizkus_1/5.png)
+`Select all records from the Customers where the PostalCode column is empty.`
 ```
 PostalCode IS NULL
 ```
-![](štrucl_slike/pisni_preizkus_1/6.png)
+
+![štrucl_slike/pisni_preizkus_1/6.png](štrucl_slike/pisni_preizkus_1/6.png)
+`Use an SQL function to select the record with the highest value of the Price column.`
 ```
 MAX (Price)
 ```
-![](štrucl_slike/pisni_preizkus_1/7.png)
+
+![štrucl_slike/pisni_preizkus_1/7.png](štrucl_slike/pisni_preizkus_1/7.png)
+`Use an SQL function to calculate the average price of all products.`
 ```
 AVG (Price)
 ```
-![](štrucl_slike/pisni_preizkus_1/8.png)
+
+![štrucl_slike/pisni_preizkus_1/8.png](štrucl_slike/pisni_preizkus_1/8.png)
+`Use the correct function to return the number of records that have the Price value set to 18.`
 ```
 COUNT WHERE
 ```
-![](štrucl_slike/pisni_preizkus_1/9.png)
+
+![štrucl_slike/pisni_preizkus_1/9.png](štrucl_slike/pisni_preizkus_1/9.png)
+`stavi manjkajoče dele SQL ukaza za vzstavljanje podatkov! Četrta splošna oblika:`
 ```
 VALUES ()
 ```
-![](štrucl_slike/pisni_preizkus_1/10.png)
+
+![štrucl_slike/pisni_preizkus_1/10.png](štrucl_slike/pisni_preizkus_1/10.png)
+`stavi manjkajoče dele SQL ukaza za vzstavljanje podatkov! To je primer ukaza za podvojitev zapisov v tabeli!`
 ```
 SELECT *
 ```
-![](štrucl_slike/pisni_preizkus_1/11.png)
+
+![štrucl_slike/pisni_preizkus_1/11.png](štrucl_slike/pisni_preizkus_1/11.png)
+`stavi manjkajoče dele SQL ukaza za vzstavljanje podatkov! Druga splošna oblika:`
 ```
 INSERT INTO VALUES
 ```
-![](štrucl_slike/pisni_preizkus_1/12.png)
+
+![štrucl_slike/pisni_preizkus_1/12.png](štrucl_slike/pisni_preizkus_1/12.png)
+`stavi manjkajoče dele SQL ukaza za brisanje podatkov! Splošna oblika ukaza DELETE`
 ```
 FROM WHERE
 ```
-![](štrucl_slike/pisni_preizkus_1/13.png)
+
+![štrucl_slike/pisni_preizkus_1/13.png](štrucl_slike/pisni_preizkus_1/13.png)
+`Use an SQL function to calculate the sum of all the Price column values in the Products table.`
 ```
 SUM (Price)
 ```
-![](štrucl_slike/pisni_preizkus_1/14.png)
+
+![štrucl_slike/pisni_preizkus_1/14.png](štrucl_slike/pisni_preizkus_1/14.png)
+`Set the value of the City column to 'Oslo', but only the ones where the Country column has the value "Norway".`
 ```
 UPDATE SET WHERE
 ```
-![](štrucl_slike/pisni_preizkus_1/15.png)
+
+![štrucl_slike/pisni_preizkus_1/15.png](štrucl_slike/pisni_preizkus_1/15.png)
+`Update the City value and the Country value.`
 ```
 UPDATE SET , Country
 ```
-![](štrucl_slike/pisni_preizkus_1/16.png)
+
+![štrucl_slike/pisni_preizkus_1/16.png](štrucl_slike/pisni_preizkus_1/16.png)
+`stavi manjkajoče dele SQL ukaza za posodabljanje podatkov! Splošna oblika ukaza UPDATE`
 ```
 UPDATE SET WHERE
 ```
-![](štrucl_slike/pisni_preizkus_1/17.png)
+
+![štrucl_slike/pisni_preizkus_1/17.png](štrucl_slike/pisni_preizkus_1/17.png)
+`Insert a new record in the Customers table.`
 ```
 INSERT INTO ( ) VALUES ( )
 ```
-![](štrucl_slike/pisni_preizkus_1/18.png)
+
+![štrucl_slike/pisni_preizkus_1/18.png](štrucl_slike/pisni_preizkus_1/18.png)
+`stavi manjkajoče dele SQL ukaza za vzstavljanje podatkov! Tretja splošna oblika:`
 ```
 INSERT VALUES (
 ```
-![](štrucl_slike/pisni_preizkus_1/19.png)
+
+![štrucl_slike/pisni_preizkus_1/19.png](štrucl_slike/pisni_preizkus_1/19.png)
+`Update the City column of all records in the Customers table.`
 ```
 UPDATE SET
 ```
-![](štrucl_slike/pisni_preizkus_1/20.png)
+
+![štrucl_slike/pisni_preizkus_1/20.png](štrucl_slike/pisni_preizkus_1/20.png)
+`Delete all the records from the Customers table where the Country value is 'Norway'.`
 ```
 DELETE FROM WHERE
 ```
@@ -650,7 +701,8 @@ NE
 ---
 _vprašanje:_
 
-> [!warning] :warning: NASLEDNJI DVE VPRAŠANJI STA SI PODOBNI PAZ, DA JE NAPISANO ČISTO ENAKO
+> [!WARNING] 
+> NASLEDNJI DVE VPRAŠANJI STA SI PODOBNI PAZ, DA JE NAPISANO ČISTO ENAKO
 
 ```
 Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! Pazi! Štejejo se tudi morebitne prazne vrstice v izpisu programa.
@@ -673,7 +725,8 @@ _odgovor:_
 ---
 _vprašanje:_
 
-> [!warning] :warning: NASLEDNJI DVE VPRAŠANJI STA SI PODOBNI PAZ, DA JE NAPISANO ČISTO ENAKO
+> [!WARNING] 
+> NASLEDNJI DVE VPRAŠANJI STA SI PODOBNI PAZ, DA JE NAPISANO ČISTO ENAKO
 
 ```
 Koliko spremenljivk je uporabljenih v programu na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! Argumenta metode main() ne štej za spremenljivko.
@@ -700,7 +753,8 @@ Izberi vse pravilne trditve. Ena sama napaka pomeni 0 točk. (GREEN FOOT)
 ```
 _odgovor:_
 
-> [!warning] :warning: TUKAJ STA DVE NALOGI, KI STA SI ZELO PODOBNI, TREBA JE UPORABIT VSE MOŽNOSTI, KI JIH LAHKO V VSAKI NALOGI (NEKATERE ODGOVORE SI DELITA)
+> [!WARNING] 
+> TUKAJ STA DVE NALOGI, KI STA SI ZELO PODOBNI, TREBA JE UPORABIT VSE MOŽNOSTI, KI JIH LAHKO V VSAKI NALOGI (NEKATERE ODGOVORE SI DELITA)
 
 ```
 Michael Kölling je vodja razvojne skupine za okolje Greenfoot
@@ -741,6 +795,7 @@ Podana je naslednja naloga. Izberi vse pravilne trditve. Ena sama napaka pomeni 
 _odgovor:_
 
 ![](štrucl_slike/java/1.png)
+`2. V okolju Eclipse napiši program, ki v deset zaporednih vrstic izpiše razdaljo med desetimi pari točk med dvema premicama:`
 ```
 Nalogo je mogoče rešiti z rabo zanke while.
 ```
@@ -757,7 +812,8 @@ Nalogo je mogoče rešiti z rabo zanke do while.
 ---
 _vprašanje:_
 
-> [!warning] :warning: TUKAJ IMAMO 3 PODOBNE SLIKE NA KATERA SE NANAŠA NEKAJ VPRAŠANJ (ODGOVORI SO ZAPISANI V ENAKEM ZAPOREDJU, KOT SO NAVEDENA VPRAŠANJA)
+> [!WARNING] 
+> TUKAJ IMAMO 3 PODOBNE SLIKE NA KATERA SE NANAŠA NEKAJ VPRAŠANJ (ODGOVORI SO ZAPISANI V ENAKEM ZAPOREDJU, KOT SO NAVEDENA VPRAŠANJA)
 
 ```
 Ali je ta program brez napak in bi dejansko deloval?
@@ -781,7 +837,8 @@ Podana je naslednja koda programa. Izberi vse pravilne trditve. Ena sama napaka 
 ```
 _odgovor:_
 
-> [!warning] :warning: NALOGA D3 IMA DVE PODOBNI SLIKI
+> [!WARNING] 
+> NALOGA D3 IMA DVE PODOBNI SLIKI
 
 ![](štrucl_slike/java/2.png)
 ```
@@ -812,10 +869,13 @@ Koliko vrstic se izpiše med izvedbo programa na sliki? Odgovoriti moraš z vnos
 ```
 _odgovor:_
 
-> [!warning] :warning: POGLEJ PUBLIC CLASS (NALOGA_D1 IN NALOGA_D2)
+> [!WARNING] 
+> POGLEJ PUBLIC CLASS (NALOGA_D1 IN NALOGA_D2)
 
-![](štrucl_slike/java/4.png)
-![](štrucl_slike/java/5.png)
+![štrucl_slike/java/4.png](štrucl_slike/java/4.png)
+`Naloga_D1`
+![štrucl_slike/java/5.png](štrucl_slike/java/5.png)
+`Naloga_D2`
 ```
 2
 ```
@@ -841,59 +901,71 @@ Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in vel
 ```
 _odgovor:_
 
-> [!warning] :warning: VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE. TO JE DEL JAVE, TEORIJA IMA SVOJ DEL
+> [!WARNING] 
+> VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE. TO JE DEL JAVE, TEORIJA IMA SVOJ DEL
 
-![](štrucl_slike/java/6.png)
+![štrucl_slike/java/6.png](štrucl_slike/java/6.png)
+`Fill in the blanks to define a method called shoot, and call it twice in main.`
 ```
 static shoot () ;
 ```
 
-![](štrucl_slike/java/7.png)
+![štrucl_slike/java/7.png](štrucl_slike/java/7.png)
+`Fill in the blanks to call the login() method in main.`
 ```
 ()
 ```
 
-![](štrucl_slike/java/8.png)
+![štrucl_slike/java/8.png](štrucl_slike/java/8.png)
+`Fill in the blank to define a method that does not return a value.`
 ```
 void
 ```
 
-![](štrucl_slike/java/9.png)
+![štrucl_slike/java/9.png](štrucl_slike/java/9.png)
+`Fill in the blanks to define a method doubleNum that takes and integer as its parameter and outputs its double.`
 ```
 int * doubleNum
 ```
 
-![](štrucl_slike/java/10.png)
+![štrucl_slike/java/10.png](štrucl_slike/java/10.png)
+`Fill in the blanks to define a method that takes two integers and outputs their sum.`
 ```
 int a sum ,
 ```
 
-![](štrucl_slike/java/11.png)
+![štrucl_slike/java/11.png](štrucl_slike/java/11.png)
+`Fill in the blanks to declare a method that takes one argument of type int and returns the factorial of that number.`
 ```
 int num x return
 ```
 
-![](štrucl_slike/java/12.png)
+![štrucl_slike/java/12.png](štrucl_slike/java/12.png)
+`Fill in the blanks to create a method called checkAge, which returns true, in case its age prameter is greater than 18.`
 ```
 boolean if true return
 ```
 
-![](štrucl_slike/java/13.png)
+![štrucl_slike/java/13.png](štrucl_slike/java/13.png)
+`Fill in the blanks to create a method that takes two integers and returns their sum. Then, call it in main.`
 ```
 int , return sum
 ```
 
-![](štrucl_slike/java/14.png)
+![štrucl_slike/java/14.png](štrucl_slike/java/14.png)
+`Fill in the blanks to define a method with 2 parameters called area. It should calculate and output the area of a rectangle based on the width and height.`
 ```
 static area , out res
 ```
 
-![](štrucl_slike/java/15.png)
+![štrucl_slike/java/15.png](štrucl_slike/java/15.png)
+`Drag & drop to declare a valid method called login.`
 ```
 static void login
 ```
 
-![](štrucl_slike/java/16.png)
+![štrucl_slike/java/16.png](štrucl_slike/java/16.png)
+`Fill in the blanks to create a method called check that takes two parameters, a name and an age.`
 ```
 void { name else
 ```
@@ -935,14 +1007,17 @@ Koliko vrstic izpiše naslednji program?
 ```
 _odgovor:_
 
-> [!warning] :warning: ISTO VPRAŠANJE DRUGA SLIKICA
+> [!WARNING] 
+> ISTO VPRAŠANJE DRUGA SLIKICA
 
-![](štrucl_slike/java/17.png)
+![štrucl_slike/java/17.png](štrucl_slike/java/17.png)
+`static void welcome(String name, int age)`
 ```
 4
 ```
 
-![](štrucl_slike/java/18.png)
+![štrucl_slike/java/18.png](štrucl_slike/java/18.png)
+`static void welcome()`
 ```
 9
 ```
@@ -954,7 +1029,8 @@ Vnesi pravilen odgovor!
 ```
 _odgovor:_
 
-![](štrucl_slike/java/19.png)
+![štrucl_slike/java/19.png](štrucl_slike/java/19.png)
+`What is the result of demo(8, 3)?`
 ```
 2
 ```

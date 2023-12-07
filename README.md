@@ -133,8 +133,8 @@ Kateri SQL ukaz je avtor uporabil za rešitev prikazane naloge, oziroma katere i
 Kateri SQL ukaz je avtor uporabil za rešitev prikazane naloge, oziroma katere izmed prikazanih poizvedb (A, B, C, D) vrnejo rezultat, ki je prikazan na sliki?
 ```
 _odgovor:_
-:warning:
-> [!warning] POGLEJ SLIKO
+
+> [!warning] :warning: POGLEJ SLIKO
 
 ```
 SQL_Naloga_1 | poizvedbo A

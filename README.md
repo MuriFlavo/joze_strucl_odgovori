@@ -1083,9 +1083,10 @@ Izpisite drzavo, regijo in povrsino za najmanjso in najvedjo drzavo. Prva naj bo
 ```
 
 ---
-_vprašanje:_
 > [!WARNING]  
 > Naslednji 4je odgovori niso 100% (uporabil svoje znanje in chat gpt), bom odstranil warning, ko izvem 100% kateri je pravi odgovor :)
+
+_vprašanje:_
 ```
 V programu iz videa Java JDBC Tutorial - Part 2: Insert Data into a MySQL Database je zapisan naslednji del kode. Kateri komentar mu ustreza.
 ```

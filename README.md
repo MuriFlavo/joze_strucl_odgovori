@@ -1036,3 +1036,14 @@ _odgovor:_
 ```
 
 ---
+_vprašanje:_
+```
+V programu iz videa Java JDBC Tutorial - Part 1: Connect to MySQL database with Java je zapisan naslednji del kode. Kateri komentar mu ustreza.
+```
+
+_odgovor:_
+```
+// 4. Process the result set
+```
+
+---

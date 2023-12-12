@@ -1040,10 +1040,88 @@ _vprašanje:_
 ```
 V programu iz videa Java JDBC Tutorial - Part 1: Connect to MySQL database with Java je zapisan naslednji del kode. Kateri komentar mu ustreza.
 ```
-
 _odgovor:_
 ```
 // 4. Process the result set
+```
+
+---
+_vprašanje:_
+```
+Koliko vrstic izpiše prikazan program?
+
+Koda programa, torej razreda Beri_iz_Accessa je na posebni sliki v tem istem razdelku.
+```
+_odgovor:_
+```
+Toliko kolikor je zapisov v tabeli Artikel.
+```
+
+---
+_vprašanje:_
+```
+Koliko stolpcev izpiše prikazan program? Torej koliko stolpcev je v izpisu prikazanega programa?
+
+Koda programa, torej razreda Beri_iz_Accessa je na posebni sliki v tem istem razdelku.
+```
+_odgovor:_
+```
+3
+```
+
+---
+_vprašanje:_
+```
+Kateremu besedilu ustreza prikazana SQL koda?
+```
+
+![SELECT država, regija, površina](štrucl_slike/slike_idk/Kateremu_besedilu_ustreza_prikazana_sql_koda_1.png)
+`SELECT država, regija, površina FROM države WHERE površina = (SELECT MIN(površina))`
+_odgovor:_
+```
+Izpisite drzavo, regijo in povrsino za najmanjso in najvedjo drzavo. Prva naj bo najmanisa.
+```
+
+---
+_vprašanje:_
+> [!WARNING]  
+> Naslednji 4je odgovori niso 100% (uporabil svoje znanje in chat gpt), bom odstranil warning, ko izvem 100% kateri je pravi odgovor :)
+```
+V programu iz videa Java JDBC Tutorial - Part 2: Insert Data into a MySQL Database je zapisan naslednji del kode. Kateri komentar mu ustreza.
+```
+_odgovor:_
+```
+// 4. Process the result set
+```
+
+---
+_vprašanje:_
+```
+Besedilo Vaje 8: program, ki je rešitev prejšnje vaje (in izpiše vse podatke iz tabel Račun, Postavka in Artikel) spremeni tako, da:1. Izpiše koliko zapisov je v vsaki izmed tabel v priloženi bazi Račun 16T.accdb (Opomba: Besedilo Vaje 14 za 16 teden v spodnji nalogi beri kot "Besedilo Vaje 8".)
+```
+_odgovor:_
+```
+1
+```
+
+---
+_vprašanje:_
+```
+Besedilo Vaje 8: program, ki je rešitev prejšnje vaje (in izpiše vse podatke iz tabel Račun, Postavka in Artikel) spremeni tako, da: 1. Izpiše koliko zapisov je v vsaki izmed tabel v priloženi bazi Račun 16T.accdb Pazi na to, koliko je vseh tabel v bazi Račun 16T.accdb (Opomba: Besedilo Vaje 14 za 16 teden v spodnji nalogi beri kot "Besedilo Vaje 8".)
+```
+_odgovor:_
+```
+3
+```
+
+---
+_vprašanje:_
+```
+Katere ukazi vrnejo rešitev SQL_Rešitev_Vaja_15 iz prikazane slike?
+```
+_odgovor:_
+```
+c
 ```
 
 ---

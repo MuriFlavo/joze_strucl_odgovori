@@ -651,11 +651,23 @@ DELETE FROM WHERE
 String int double
 ```
 
+![štrucl_slike/pisni_preizkus_1/20.png](štrucl_slike/slike_idk/fill_in_the_blanks_to_test_the_variable's_value_using_the_switch_statement.png)
+`Fill in the blanks to test the variable's value using the switch statement.`
+```
+switch x case
+```
 
+![štrucl_slike/pisni_preizkus_1/20.png](štrucl_slike/slike_idk/fill_in_the_blanks_to_print_the_values_of_the_x_variable_5_times.png)
+`Fill in the blanks to print the values of the x variable 5 times.`
+```
+while 5
+```
 
-
-
-
+![štrucl_slike/pisni_preizkus_1/20.png](štrucl_slike/slike_idk/fill_in_the_blank_to_print_you_rock_if_a_less_than_15.png)
+`Fill in the blanks to print "You rock!" if variable "a" is greater than 15, and variable "b" is less than or equal to 72.`
+```
+&& 72
+```
 
 ---
 # Java:
@@ -755,7 +767,11 @@ _vprašanje:_
 ```
 Koliko spremenljivk je uporabljenih v programu na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 ```
+```
+Koliko spremenljivk je uporabljenih v programu na sliki? Argumentov metod ne štej med spremenljivke! Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! Bodi pozoren na podrobnosti. Razmisli in odgovori.
+```
 _odgovor:_
+`public class Program_v1`
 ```
 5
 ```
@@ -910,6 +926,8 @@ Feet to Inches Converter | NE
 
 ---
 _vprašanje:_
+> [!WARNING] 
+> V DOKUMENTU STA DVE ENAKI VPRAŠANJI, POGLEJ SLIKE TUDI DRUGEGA, ALI IŠČI PO KOTEKSTU SLIKE
 ```
 Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami. Presledkov na začetku in koncu ne sme biti.
 ```
@@ -1051,6 +1069,22 @@ _odgovor:_
 ---
 _vprašanje:_
 ```
+V katerih vrsticah je napaka v prikazanem programu?
+```
+_odgovor:_
+![štrucl_slike/java/18.png](štrucl_slike/slike_idk/v_katerih_vrsticah_je_napaka_v_prikazanem_programu_1.png)
+```
+3
+```
+
+![štrucl_slike/java/18.png](štrucl_slike/slike_idk/v_katerih_vrsticah_je_napaka_v_prikazanem_programu_2.png)
+```
+0
+```
+
+---
+_vprašanje:_
+```
 Vnesi pravilen odgovor!
 ```
 _odgovor:_
@@ -1109,9 +1143,6 @@ Izpisite drzavo, regijo in povrsino za najmanjso in najvedjo drzavo. Prva naj bo
 ```
 
 ---
-> [!WARNING]  
-> Naslednji 4je odgovori niso 100% (uporabil svoje znanje in chat gpt), bom odstranil warning, ko izvem 100% kateri je pravi odgovor :)
-
 _vprašanje:_
 ```
 V programu iz videa Java JDBC Tutorial - Part 2: Insert Data into a MySQL Database je zapisan naslednji del kode. Kateri komentar mu ustreza.
@@ -1138,7 +1169,7 @@ Besedilo Vaje 8: program, ki je rešitev prejšnje vaje (in izpiše vse podatke 
 ```
 _odgovor:_
 ```
-3
+5
 ```
 
 ---
@@ -1208,6 +1239,27 @@ Which statement in regard to the char data type is true?
 _odgovor:_
 ```
 'k' is a char
+```
+
+---
+_vprašanje:_
+```
+Dopolni naslednjo kodo, z vnosom manjkajoče kode na mestih, ki so označena s podčrtaji (________). V tem primeru je samo eno takšno mesto, sicer jih je lahko več. Pazi! Bodo pozoren na podrobnosti v izpisu programa. Izpis je v dveh vrsticah. To je bistveno za tvojo pravilno rešitev, ki je lahko samo ena. Seveda vedno velja, da ločimo velikost črk. Pazi! Pri vnosu odgovora ne sme biti odvečnih začetnih presledkov pred prvo besedo odgovora in odvečnih končnih presledkov za zadnjo besedo odgovora. Med besedami, ki sestavljajo odgovor je vedno samo en presledek. Pomembna je tudi velikost črk. Torej na kratko: presledki samo med deli odgovora in velikost črk!
+```
+_odgovor:_
+```
+println
+```
+
+---
+_vprašanje:_
+```
+V katerih vrsticah je napaka ali vzrok za morebitne napake v prikazanem delu programa? Zanimajo nas vrstice, ki so vzrok za sintaktične napake (med prevajanjem) in/ali vrstice z logično napako (ki so vzrok za napačno delovanje programa, ki ni v sladu z navodili oziroma besedilom naloge). Glej tudi podrobnejšo razlago v glavi tega razdelka z nalogami!
+```
+_odgovor:_
+```
+povrsinaKocke | 0
+prostorninaKocke | 17
 ```
 
 ---

@@ -891,7 +891,7 @@ Bot | NE
 
 Celsius to Fahrenheit | NE
 
-Feet to Inches COnverter | NE
+Feet to Inches Converter | NE
 ```
 
 ---
@@ -1022,6 +1022,18 @@ _odgovor:_
 9
 ```
 
+![štrucl_slike/java/18.png](štrucl_slike/slike_idk/koliko_vrstic_izpiše_naslednji_program_1.png)
+`public class Program { public static void main(String[] args)`
+```
+7
+```
+
+![štrucl_slike/java/18.png](štrucl_slike/slike_idk/koliko_vrstic_izpiše_naslednji_program_2.png)
+`class MyClass { public static void main(String[ ] args) {`
+```
+1
+```
+
 ---
 _vprašanje:_
 ```
@@ -1123,6 +1135,65 @@ Katere ukazi vrnejo rešitev SQL_Rešitev_Vaja_15 iz prikazane slike?
 _odgovor:_
 ```
 c
+```
+
+---
+_vprašanje:_
+```
+Write once, run everywhere. This slogan means that:
+```
+_odgovor:_
+```
+Java is platform-independent
+```
+
+---
+_vprašanje:_
+```
+True or false? Java is used only to build web apps.
+```
+_odgovor:_
+```
+False
+```
+
+---
+_vprašanje:_
+```
+Which statements are true? Choose all the correct statements!
+```
+_odgovor:_
+```
+Java's slogan is "Write once, run anywhere".
+```
+```
+Java is one of the most popular programming languages.
+```
+```
+You can use Java to build Android apps, games, banking applications, web apps, and much more!
+```
+```
+The same Java code can run on different platforms, including mobile, desktop and other portable systems.
+```
+
+---
+_vprašanje:_
+```
+Ali je naslednja koda pravilna rešitev problema Time Converter? (days = days * 3600)
+```
+_odgovor:_
+```
+To ni pravilna rešitev navedenega problema
+```
+
+---
+_vprašanje:_
+```
+Which statement in regard to the char data type is true?
+```
+_odgovor:_
+```
+'k' is a char
 ```
 
 ---

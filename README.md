@@ -515,6 +515,8 @@ _odgovor:_
 
 ---
 _vprašanje:_
+> [!WARNING] 
+> V DOKUMENTU STA DVE ENAKI VPRAŠANJI, POGLEJ SLIKE TUDI DRUGEGA, ALI IŠČI PO KOTEKSTU SLIKE
 ```
 Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami. Presledkov na začetku in koncu ne sme biti.
 ```
@@ -642,6 +644,18 @@ UPDATE SET
 ```
 DELETE FROM WHERE
 ```
+
+![štrucl_slike/pisni_preizkus_1/20.png](štrucl_slike/slike_idk/drag_and_drop_from_the_options_below_to_have_a_valid_java_program.png)
+`Drag and drop from the options below to have a valid Java program.`
+```
+String int double
+```
+
+
+
+
+
+
 
 ---
 # Java:

@@ -1139,7 +1139,7 @@ Kateremu besedilu ustreza prikazana SQL koda?
 `SELECT država, regija, površina FROM države WHERE površina = (SELECT MIN(površina))`
 _odgovor:_
 ```
-Izpisite drzavo, regijo in povrsino za najmanjso in najvedjo drzavo. Prva naj bo najmanisa.
+Izpišite državo, regijo in površino za najmanjšo in največjo državo. Prva naj bo najmanjša.
 ```
 
 ---
@@ -1350,4 +1350,155 @@ Izpišite dve najmlajši ženski in dva najstarejša moška.
 ```
 Razvrstite osebe od najmlajše do najstarejše.
 ```
+
+---
+_vprašanje:_
+```
+Podatkovni tip SMALLINT[(M)]
+```
+_odgovor:_
+```
+Spada med cele številske podatkovne tipe
+```
+```
+Je številski podatkovni tip, ki predstavlja bitno polje
+```
+```
+Oznaka M pomeni največje število števk v prikazu
+```
+```
+Dolžina tega podatkovnega tipa je 2 bajta
+```
+
+---
+_vprašanje:_
+```
+Podatkovni tip DECIMAL[(M[, D])]
+```
+_odgovor:_
+```
+Je realno število, shranjeno kot niz, z določeno decimalno vejico
+```
+```
+DEC[(M[,D])] [UNSIGNED] [ZEROFILL] je sinonim za DECIMAL
+```
+```
+NUMERIC[(M[,D])] [UNSIGNED] [ZEROFILL] je sinonim za DECIMAL
+```
+```
+FIXED[(M[,D])] [UNSIGNED] [ZEROFILL] je sinonim za DECIMAL
+```
+
+---
+_vprašanje:_
+```
+Podatkovni tip DOUBLE(M, D)
+```
+_odgovor:_
+```
+Spada med realne številske podatkovne tipe
+```
+```
+Dolžina tega podatkovnega tipa je 8 bajtov
+```
+
+---
+_vprašanje:_
+```
+Podatkovni tip FLOAT[(M, D)]
+```
+_odgovor:_
+```
+Spada med realne številske podatkovne tipe
+```
+```
+Dolžina tega podatkovnega tipa je 32 bitov
+```
+```
+Dolžina tega podatkovnega tipa je 4 bajte
+```
+
+---
+_vprašanje:_
+```
+Podatkovni tip BIGINT[(M)]
+```
+_odgovor:_
+```
+Spada med cele številske podatkovne tipe
+```
+```
+Je številski podatkovni tip, ki predstavlja bitno polje
+```
+```
+Dolžina tega podatkovnega tipa je 64 bitov
+```
+
+---
+_vprašanje:_
+```
+Podatkovni tip TINYINT[(M)]
+```
+_odgovor:_
+```
+Spada med cele številske podatkovne tipe
+```
+```
+Je številski podatkovni tip, ki predstavlja bitno polje
+```
+```
+Oznaka M pomeni največje število števk v prikazu
+```
+```
+Dolžina tega podatkovnega tipa je 8 bitov
+```
+
+---
+_vprašanje:_
+```
+Podatkovni tip MEDIUMINT[(M)]
+```
+_odgovor:_
+```
+Spada med cele številske podatkovne tipe
+```
+```
+Oznaka M pomeni največje število števk v prikazu
+```
+```
+Dolžina tega podatkovnega tipa je 3 bajte
+```
+
+---
+_vprašanje:_
+```
+Podatkovni tip INT[(M)]
+```
+_odgovor:_
+```
+Spada med cele številske podatkovne tipe
+```
+```
+Dolžina tega podatkovnega tipa je 4 bajte
+```
+
+---
+_vprašanje:_
+```
+Podatkovni tip BIT[(M)]
+```
+_odgovor:_
+```
+Je številski podatkovni tip, ki predstavlja bitno polje
+```
+```
+M pomeni število bitov v polju
+```
+```
+Privzeta vrednost za M je 1
+```
+```
+Največje število bitov v polju je 64
+```
+
 ---

@@ -1302,27 +1302,27 @@ _vprašanje:_
 Kaj izpiše naslednji ukaz?
 ```
 _odgovor:_
-![SELECT COUNT(vrsta_izdelka)](SELECT_COUNT(vrsta_izdelka).png)
+![SELECT COUNT(vrsta_izdelka)](štrucl_slike/slike_idk/SELECT_COUNT(vrsta_izdelka).png)
 ```
 Koliko je zapisov v tabeli
 ```
-![SELECT vrsta izdelka, COUNT(ALL) AS 'število izdelkov'](SELECT_vrsta_izdelka,_COUNT(*)_AS_'število_izdelkov'.png)
+![SELECT vrsta izdelka, COUNT(ALL) AS 'število izdelkov'](štrucl_slike/slike_idk/SELECT_vrsta_izdelka,_COUNT(*)_AS_'število_izdelkov'.png)
 ```
 Koliko je izdelkov v vsaki vrsti izdelka
 ```
-![SELECT (vrsta_izdleka)](SELECT_(vrsta_izdleka).png)
+![SELECT (vrsta_izdleka)](štrucl_slike/slike_idk/SELECT_(vrsta_izdleka).png)
 ```
 Prikaže vrsto izdelka za vsak izdelek
 ```
-![SELECT SUM(kosi)](SELECT_SUM(kosi).png)
+![SELECT SUM(kosi)](štrucl_slike/slike_idk/SELECT_SUM(kosi).png)
 ```
 Koliko je vseh kosov v naročilu
 ```
-![SELECT ime_izdelka FROM naročilo WHERE kosi](SELECT_ime_izdelka_FROM_naročilo_WHERE_kosi_=_(SELECT_MAX(kosi)_FROM_naročilo.png)
+![SELECT ime_izdelka FROM naročilo WHERE kosi](štrucl_slike/slike_idk/SELECT_ime_izdelka_FROM_naročilo_WHERE_kosi_=_(SELECT_MAX(kosi)_FROM_naročilo.png)
 ```
 Izdelek z največ kosi
 ```
-![SELECT MIN(cena)](SELECT_MIN(cena).png)
+![SELECT MIN(cena)](štrucl_slike/slike_idk/SELECT_MIN(cena).png)
 ```
 Najcenejši izdelek
 ```

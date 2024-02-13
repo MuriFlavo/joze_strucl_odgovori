@@ -1263,3 +1263,67 @@ prostorninaKocke | 17
 ```
 
 ---
+_vprašanje:_
+```
+Kateri ukazi vrnejo rešitev SQL_Rešitev_Vaja_15 iz prikazane slike?
+```
+_odgovor:_
+```
+c
+```
+
+---
+_vprašanje:_
+```
+Imamo program v Javi, ki je preko JDBC vmesnika povezan s podatkovno bazo Račun v Accessu. Program: 1. Izpiše koliko zapisov je v vsaki izmed tabel v podani bazi.Programer je namesto enega predmeta ResultSet (ResultSet rs) uporabil pet predmetov tipa ResultSet, kot prikazuje koda. Vse ostalo v programu (kar se ne vidi na sliki) je nespremenjeno. Program je pred tem deloval. Ali deluje tudi po prikazani spremembi?
+```
+_odgovor:_
+```
+DA
+```
+
+---
+_vprašanje:_
+```
+Najmanj kolikokrat moramo v opisanem programu uporabiti izraz, ki ga prikazuje slika?
+Imamo program v Javi, k ije preko JDBC vmesnika povezan s podatkovno bazo Račun v Accessu. Program: 1. Izpiše vse podatke iz tabel Račun, Postavka in Artikel.
+```
+![rs = st.executeQuery](rs_=_st.executeQuery.png)
+_odgovor:_
+```
+3
+```
+
+---
+_vprašanje:_
+> [!WARNING] 
+> ISTO VPRAŠANJE DRUGA SLIKICA
+```
+Kaj izpiše naslednji ukaz?
+```
+_odgovor:_
+![SELECT COUNT(vrsta_izdelka)](SELECT_COUNT(vrsta_izdelka).png)
+```
+Koliko je zapisov v tabeli
+```
+![SELECT vrsta izdelka, COUNT(ALL) AS 'število izdelkov'](SELECT_vrsta_izdelka,_COUNT(*)_AS_'število_izdelkov'.png)
+```
+Koliko je izdelkov v vsaki vrsti izdelka
+```
+![SELECT (vrsta_izdleka)](SELECT_(vrsta_izdleka).png)
+```
+Prikaže vrsto izdelka za vsak izdelek
+```
+![SELECT SUM(kosi)](SELECT_SUM(kosi).png)
+```
+Koliko je vseh kosov v naročilu
+```
+![](SELECT_ime_izdelka_FROM_naročilo_WHERE_kosi_=_(SELECT_MAX(kosi)_FROM_naročilo.png)
+```
+Izdelek z največ kosi
+```
+![]()
+```
+Najcenejši izdelek
+```
+---

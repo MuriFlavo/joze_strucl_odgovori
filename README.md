@@ -1318,12 +1318,36 @@ Prikaže vrsto izdelka za vsak izdelek
 ```
 Koliko je vseh kosov v naročilu
 ```
-![](SELECT_ime_izdelka_FROM_naročilo_WHERE_kosi_=_(SELECT_MAX(kosi)_FROM_naročilo.png)
+![SELECT ime_izdelka FROM naročilo WHERE kosi](SELECT_ime_izdelka_FROM_naročilo_WHERE_kosi_=_(SELECT_MAX(kosi)_FROM_naročilo.png)
 ```
 Izdelek z največ kosi
 ```
-![]()
+![SELECT MIN(cena)](SELECT_MIN(cena).png)
 ```
 Najcenejši izdelek
+```
+![vaja13_1](štrucl_slike/slike_idk/vaja13_1.png)
+```
+Poiščite vse, ki so rojeni med drugo svetovno vojno in niso rojeni meseca septembra.
+```
+![vaja13_2](štrucl_slike/slike_idk/vaja13_2.png)
+```
+Izpišite vse, ki bodo imeli rojstni dan v naslednjih 90 dneh.
+```
+![vaja13_3](štrucl_slike/slike_idk/vaja13_3.png)
+```
+Poiščite vse, ki so stari med 10000 in 20000 dnevi.
+```
+![vaja13_4](štrucl_slike/slike_idk/vaja13_4.png)
+```
+Poiščite vse, ki so rojeni pred drugo svetovno vojno in niso rojeni meseca septembra ali oktobra.
+```
+![vaja13_5](štrucl_slike/slike_idk/vaja13_5.png)
+```
+Izpišite dve najmlajši ženski in dva najstarejša moška.
+```
+![vaja13_6](štrucl_slike/slike_idk/vaja13_6.png)
+```
+Razvrstite osebe od najmlajše do najstarejše.
 ```
 ---

@@ -12,10 +12,11 @@ Najmanj koliko ocen boš dobil pri predmetu kot celoti v posameznem ocenjevalnem
 ```
 
 ---
-### Vprašanje:
+**Vprašanje:**
 
 Kateri kriterij bo veljal za pridobitev ocene v posameznem ocenjevalnem obdobju za sprotne zagovore vaj pri praksi?
-### Odgovor:
+
+**Odgovor:**
 ```
 Na voljo je 100 točk. Kriterij: do 50t nzd(1), 50t zd(2), 65t db(3), 80t pd(4), 90t odl(5)
 ```

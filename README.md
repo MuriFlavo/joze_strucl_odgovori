@@ -11,7 +11,7 @@
 | vaja08  |                    |      |      |
 | vaja09  | :white_check_mark: |      |      |
 | vaja10  |                    |      |      |
-| vaja11  | :white_check_mark: |      |      |
+| vaja11  |      :check;       |      |      |
 | vaja12  |                    |      |      |
 | vaja13  |                    |      |      |
 | vaja14  |                    |      |      |

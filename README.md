@@ -1,4 +1,3 @@
-
 | Verzija | NUPp    | NUPt | JAVA |
 | ------- | ------- | ---- | ---- |
 | vaja01  | &check; |      |      |

@@ -1,21 +1,21 @@
-| Verzija | NUPp        | NUPt | JAVA |
-| ------- | ----------- | ---- | ---- |
-| vaja01  | - [x] works |      |      |
-| vaja02  |             |      |      |
-| vaja03  |             |      |      |
-| vaja04  |             |      |      |
-| vaja05  |             |      |      |
-| vaja06  |             |      |      |
-| vaja07  |             |      |      |
-| vaja08  |             |      |      |
-| vaja09  |             |      |      |
-| vaja10  |             |      |      |
-| vaja11  |             |      |      |
-| vaja12  |             |      |      |
-| vaja13  |             |      |      |
-| vaja14  |             |      |      |
-| vaja15  |             |      |      |
-| vaja16  |             |      |      |
+| Verzija | NUPp | NUPt | JAVA |
+| ------- | ---- | ---- | ---- |
+| vaja01  | [x]  |      |      |
+| vaja02  |      |      |      |
+| vaja03  |      |      |      |
+| vaja04  |      |      |      |
+| vaja05  |      |      |      |
+| vaja06  |      |      |      |
+| vaja07  |      |      |      |
+| vaja08  |      |      |      |
+| vaja09  |      |      |      |
+| vaja10  |      |      |      |
+| vaja11  |      |      |      |
+| vaja12  |      |      |      |
+| vaja13  |      |      |      |
+| vaja14  |      |      |      |
+| vaja15  |      |      |      |
+| vaja16  |      |      |      |
 
 # NUPp:
 

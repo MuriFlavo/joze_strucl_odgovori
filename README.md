@@ -2,10 +2,11 @@
 # Praksa:
 
 ---
-### Vprašanje:
+**VPRAŠANJE:**
 
 Najmanj koliko ocen boš dobil pri predmetu kot celoti v posameznem ocenjevalnem obdobju. Torej najmanj koliko ocen bo potrebnih v redovalnici v eAsistentu v posameznem ocenjevalnem obdobju, da se ti bo lahko zaključila končna ocena za spričevalo? Mišljene so ocene tako pri teoriji, kot pri praksi. Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
-### Odgovor:
+
+**ODGOVOR:**
 ```
  3
 ```

@@ -23,9 +23,7 @@ Na voljo je 100 točk. Kriterij: do 50t nzd(1), 50t zd(2), 65t db(3), 80t pd(4),
 ---
 **VPRAŠANJE:**
 
-```
 Da boš posledično ob koncu ocenjevalnega obdobja pozitiven pri praksi kot celoti moraš biti... Izberi vse ustrezne trditve?
-```
 
 **ODGOVOR:**
 ```

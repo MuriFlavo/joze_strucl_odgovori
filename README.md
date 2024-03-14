@@ -1,4 +1,23 @@
-# Praksa:
+| Verzija | NUPp        | NUPt | JAVA |
+| ------- | ----------- | ---- | ---- |
+| vaja01  | - [x] works |      |      |
+| vaja02  |             |      |      |
+| vaja03  |             |      |      |
+| vaja04  |             |      |      |
+| vaja05  |             |      |      |
+| vaja06  |             |      |      |
+| vaja07  |             |      |      |
+| vaja08  |             |      |      |
+| vaja09  |             |      |      |
+| vaja10  |             |      |      |
+| vaja11  |             |      |      |
+| vaja12  |             |      |      |
+| vaja13  |             |      |      |
+| vaja14  |             |      |      |
+| vaja15  |             |      |      |
+| vaja16  |             |      |      |
+
+# NUPp:
 
 ---
 **VPRAŠANJE:**
@@ -244,7 +263,7 @@ Besedilo Vaje 7: podan program, ki izpiše prve tri stoplce iz tabele Artikel v 
 ```
 
 ---
-# Teorija:
+# NUPt:
 
 ---
 **VPRAŠANJE:**
@@ -261,9 +280,7 @@ Nobeden izmed naštetih
 ---
 **VPRAŠANJE:**
 
-```
 Najmanj koliko ocen boš dobil pri predmetu kot celoti v posameznem ocenjevalnem obdobju. Torej najmanj koliko ocen bo potrebnih v redovalnici v eAsistentu, da se ti bo lahko zaključila končna ocena za spričevalo? Mišljene so ocene tako pri teoriji, kot pri praksi. Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
-```
 
 **ODGOVOR:**
 ```
@@ -735,7 +752,7 @@ while 5
 ```
 
 ---
-# Java:
+# JAVA:
 
 ---
 **VPRAŠANJE:**

@@ -1,4 +1,3 @@
-
 # Praksa:
 
 ---
@@ -12,51 +11,53 @@ Najmanj koliko ocen boš dobil pri predmetu kot celoti v posameznem ocenjevalnem
 ```
 
 ---
-**Vprašanje:**
+**VPRAŠANJE:**
 
 Kateri kriterij bo veljal za pridobitev ocene v posameznem ocenjevalnem obdobju za sprotne zagovore vaj pri praksi?
 
-**Odgovor:**
+**ODGOVOR:**
 ```
 Na voljo je 100 točk. Kriterij: do 50t nzd(1), 50t zd(2), 65t db(3), 80t pd(4), 90t odl(5)
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Da boš posledično ob koncu ocenjevalnega obdobja pozitiven pri praksi kot celoti moraš biti... Izberi vse ustrezne trditve?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Pozitivno ocenjen samo pri praksi.
 ```
 
 ---
-_vprašanje:_
-```
+**VPRAŠANJE:**
+
 Prikažite gostoto prebivalstva za Slovenijo. V glavi stolpca naj piše: Gostota prebivalstva za Slovenijo.
-```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT prebivalstvo/površina AS 'Gostota prebivalstva za Slovenijo' FROM države WHERE država = 'Slovenija';
 ```
 
 ---
-_vprašanje:_
-```
+**VPRAŠANJE:**
+
 Izpišite imena vseh držav, ki so velike med 10.000 in 30.000 km2. Spisek uredite po abecednem vrstnem redu naraščajoče.
-```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT država FROM države WHERE površina BETWEEN 10000 AND 30000 ORDER BY država;
 ```
 
 ---
-_vprašanje:_
-```
+**VPRAŠANJE:**
+
 Izpišite vse podatke za Slovenijo in Avstrijo.
-```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT * FROM države WHERE država='Slovenija' OR država='Avstrija';
 ```
@@ -65,74 +66,86 @@ SELECT * FROM države WHERE država IN ('Slovenija', 'Avstrija');
 ```
 
 ---
-_vprašanje:_
-```
+**VPRAŠANJE:**
+
 Izpišite vse podatke o državah, katerih ime se prične s črko H.
-```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT * FROM države WHERE država LIKE 'H%';
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Izpišite vse podatke iz tabele države.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT * FROM države;
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Izpišite imena vseh držav.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT država FROM države;
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Prikažite gostoto prebivalstva za Italijo. V glavi stolpca naj piše: Gostota prebivalstva za Italijo.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT prebivalstvo/površina AS 'Gostota prebivalstva za Italijo' FROM države WHERE država = 'Italija';
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Izpišite vse podatke o državah, katerih ime se ne prične s črko A.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT * FROM države WHERE država NOT LIKE 'A%';
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Izpišite imena in površino vseh držav, ki so večje od 300.000 km2. Spisek uredite naraščajoče po velikosti držav.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT država, površina FROM države WHERE površina > 300000 ORDER BY površina;
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Kateri SQL ukaz je avtor uporabil za rešitev prikazane naloge, oziroma katere izmed prikazanih poizvedb (A, B, C, D) vrne rezultat, ki je prikazan na sliki? Pazi, naloga je tipa izberi vse pravilne!
 ```
 ```
 Kateri SQL ukaz je avtor uporabil za rešitev prikazane naloge, oziroma katere izmed prikazanih poizvedb (A, B, C, D) vrnejo rezultat, ki je prikazan na sliki?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 
 > [!WARNING]  
 > POGLEJ SLIKO
@@ -148,41 +161,49 @@ SQL_Naloga_4 | poizvedbo D
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Najmanj koliko ocen boš dobil pri praksi v posameznem ocenjevalnem obdobju, kot končno oceno za sprotno tedensko preverjanje znanja, ki ga bomo poimenovali kar sprotni zagovori vaj? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 1
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Koliko rezerviranih besed jezika SQL (torej koliko ključnih besed jezika SQL) je uporabljenih v splošni obliki zapisa (sintaksa ukaza) ukaza SELECT za povezovanje z ukazom JOIN? (Znak za enačaj ne štejemo kot ključno besedo!) Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 4
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Koliko rezerviranih besed jezika SQL (torej koliko ključnih besed jezika SQL) je uporabljenih v splošni obliki zapisa (sintaksa ukaza) ukaza SELECT za povezovanje z enačajem? (Znak za enačaj ne štejemo kot ključno besedo!) Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 3
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Imamo dve tabeli, ki sta povezani preko ustreznih dveh polj. Izberi vse ustrezne trditve? Pazi, točke dobiš le za nalogo z vsemi pravilnimi rešitvami.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 
 > [!WARNING]
 > VEČ NALOG Z ISTIM VPRAŠANJEM, IMA 2 ODGOVORA
@@ -201,21 +222,25 @@ SQL SELECT ukaz, kjer uporabimo povezovanje z RIGHT JOIN lahko vedno enakovredno
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Besedilo Vaje7: podan program, ki izpiše prve tri stoplce iz tabele Artikel v podani bazi spremni tako, da: 1. Izpiše vse podatke iz tabel Račun, Postavka in Artikel. (Opomba: Besedilo Vaje 13 za 15 teden v spodnji nalogi beri kot "Besedilo Vaje 7".)
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 3
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Besedilo Vaje 7: podan program, ki izpiše prve tri stoplce iz tabele Artikel v podani bazi spremni tako, da: 1. Izpiše vse podatke iz tabel Račun, Postavka in Artikel. (Opomba: Besedilo Vaje 13 za 15 teden v spodnji nalogi beri kot "Besedilo Vaje 7".)
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 1
 ```
@@ -224,121 +249,145 @@ _odgovor:_
 # Teorija:
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Kateri kriterij bo veljal za pridobitev ocene v posameznem ocenjevalnem obdobju za sprotno preverjanje znanja pri teoriji?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Nobeden izmed naštetih
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Najmanj koliko ocen boš dobil pri predmetu kot celoti v posameznem ocenjevalnem obdobju. Torej najmanj koliko ocen bo potrebnih v redovalnici v eAsistentu, da se ti bo lahko zaključila končna ocena za spričevalo? Mišljene so ocene tako pri teoriji, kot pri praksi. Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 3
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Vnesi angleško kratico za pojem "Jezik za rokovanje s podatki". Odgovoriti moraš z vnosom samih v velikih črk. Zapiši kot kratico s samimi velikimi črkami!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 DML
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Kaj pomeni kratica BNF?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Backus–Naur form (often used to describe the syntax of languages used in computing)
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Koliko stolpcev je v rezultatu naslednjega ukaza? SELECT EmployeeID AS Zaposleni, COUNT(*) AS 'Število naročil' FROM Orders GROUP BY EmployeeID; Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 2
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Katere trditve držijo za udeležbo pri šolskih urah, ki se izvajajo v računalniških učilnicah?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 VSI ODGOVORI
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Izpišite imena in površino vseh držav, ki so manjše od 300.000 km2. Spisek uredite naraščajoče po velikosti držav.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT država, površina FROM države WHERE površina < 300000 ORDER BY površina;
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Izpišite vse podatke o državah, katerih ime se prične s črko A ali s črko H.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT * FROM države WHERE država LIKE 'A%' OR država LIKE 'H%'
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Prikažite ime države in gostoto prebivalstva za Slovenijo in Italijo. V glavi drugega stolpca naj piše: Gostota prebivalstva.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT država, prebivalstvo/površina AS 'Gostota prebivalstva' FROM države WHERE država = 'Italija' OR država = 'Slovenija';
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Koliko je vseh kosov v naročilu?? Izberi vse pravilne rešitve.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT SUM(kosi) FROM naročilo;
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Koliko je različnih vrst izdelkov? Izberi vse pravilne rešitve.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT COUNT(DISTINCT vrsta_izdelka) FROM naročilo
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Koliko je zapisov v tabeli naročilo? Izberi vse pravilne rešitve.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 SELECT COUNT(*) FROM naročilo;
 ```
@@ -347,21 +396,25 @@ SELECT COUNT(ime_izdelka) FROM naročilo;
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Koliko različnih oblik SELECT ukaza za povezovanje tabel je opisanih v gradivu? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 3
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Izberi vse pravilne trditve. (LEFT JOIN)
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 LEFT JOIN nam vrne tudi tiste zapise iz »leve« tabele, ki nimajo povezave z »desno« tabelo.
 ```
@@ -385,21 +438,25 @@ Možno je, da rezultat leve zunanje združitve vrne enako vrstic, kot rezultat d
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Ali stavek SELECT omogoča, da povežemo dve tabeli?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 DA
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Izberi vse pravilne trditve. (RIGHT JOIN)
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 RIGHT JOIN nam vrne tudi vse zapise iz »desne« tabele.
 ```
@@ -420,21 +477,25 @@ Možno je, da rezultat desne zunanje združitve vrne enako vrstic, kot rezultat 
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Ali stavek SELECT omogoča, da povežemo več kot dve tabeli?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 DA
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Izberi vse pravilne trditve. (SHORT)
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Če zamenjamo vrstni red tabel, lahko prevedemo RIGHT JOIN v LEFT JOIN in obratno.
 ```
@@ -446,11 +507,13 @@ _odgovor:_
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Kateremu besedilu ustreza prikazan SQL ukaz?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 
 > [!WARNING] 
 > VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE
@@ -492,11 +555,13 @@ Izpiši državo, regijo in površino najmanjše države v vsaki regiji. Prikazan
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Kaj naredi naslednji SQL ukaz?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 
 > [!WARNING] 
 > VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE
@@ -514,13 +579,15 @@ _odgovor:_
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 > [!WARNING] 
 > V DOKUMENTU STA DVE ENAKI VPRAŠANJI, POGLEJ SLIKE TUDI DRUGEGA, ALI IŠČI PO KOTEKSTU SLIKE
 ```
 Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami. Presledkov na začetku in koncu ne sme biti.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 
 > [!WARNING] 
 > VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE. TO JE DEL TEORIJE, JAVA IMA SVOJ DEL
@@ -673,59 +740,70 @@ while 5
 # Java:
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Da boš posledično ob koncu ocenjevalnega obdobja pozitiven pri predmetu kot celoti moraš biti... Izberi vse ustrezne trditve?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Pozitivno ocenjen vsaj pri pisnem preizkusu znanja.
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Najmanj koliko ocen boš dobil pri predmetu v posameznem ocenjevalnem obdobju, kot končno oceno za sprotno tedensko preverjanje znanja? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 1
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Najmanj koliko ocen boš dobil pri predmetu kot celoti v posameznem ocenjevalnem obdobju. Torej najmanj koliko ocen bo potrebnih v redovalnici v eAsistentu, da se ti bo lahko zaključila končna ocena za ocenjevalno obdobje kot pozitivna? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 2
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Kateri kriterij bo veljal za pridobitev ocene v posameznem ocenjevalnem obdobju pri pisnem preverjanju znanja?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Na voljo je 100 točk. Kriterij: do 50t nzd(1), 50t zd(2), 65t db(3), 80t pd(4), 90t odl(5)
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Ali si komentarji obvezni?
 
 Ali so komentarji obvezni?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 NE
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 
 > [!WARNING] 
 > NASLEDNJI DVE VPRAŠANJI STA SI PODOBNI PAZ, DA JE NAPISANO ČISTO ENAKO
@@ -733,23 +811,27 @@ _vprašanje:_
 ```
 Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! Pazi! Štejejo se tudi morebitne prazne vrstice v izpisu programa.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 7
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 3
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 
 > [!WARNING] 
 > NASLEDNJI DVE VPRAŠANJI STA SI PODOBNI PAZ, DA JE NAPISANO ČISTO ENAKO
@@ -757,31 +839,36 @@ _vprašanje:_
 ```
 Koliko spremenljivk je uporabljenih v programu na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! Argumenta metode main() ne štej za spremenljivko.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 1
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Koliko spremenljivk je uporabljenih v programu na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 ```
 ```
 Koliko spremenljivk je uporabljenih v programu na sliki? Argumentov metod ne štej med spremenljivke! Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! Bodi pozoren na podrobnosti. Razmisli in odgovori.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 `public class Program_v1`
 ```
 5
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Izberi vse pravilne trditve. Ena sama napaka pomeni 0 točk. (GREEN FOOT)
 ```
-_odgovor:_
+
+**ODGOVOR:**
 
 > [!WARNING] 
 > TUKAJ STA DVE NALOGI, KI STA SI ZELO PODOBNI, TREBA JE UPORABIT VSE MOŽNOSTI, KI JIH LAHKO V VSAKI NALOGI (NEKATERE ODGOVORE SI DELITA)
@@ -818,11 +905,13 @@ The Joy Of Code govori o programiranju v okolju Greenfoot z javo.
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Podana je naslednja naloga. Izberi vse pravilne trditve. Ena sama napaka pomeni 0 točk.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 
 ![](štrucl_slike/java/1.png)
 `2. V okolju Eclipse napiši program, ki v deset zaporednih vrstic izpiše razdaljo med desetimi pari točk med dvema premicama:`
@@ -840,7 +929,8 @@ Nalogo je mogoče rešiti z rabo zanke do while.
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 
 > [!WARNING] 
 > TUKAJ IMAMO 3 PODOBNE SLIKE NA KATERA SE NANAŠA NEKAJ VPRAŠANJ (ODGOVORI SO ZAPISANI V ENAKEM ZAPOREDJU, KOT SO NAVEDENA VPRAŠANJA)
@@ -852,7 +942,8 @@ Ali je ta program brez napak in bi dejansko deloval?
 
 Koliko vrstic dejansko prebere prikazan program, če vnesemo več kot eno vrstico? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Poglej ali na 8. liniji piše "String userName = vnos.nextLine();", če ja potem je prav drugače je narobe. 
 ```
@@ -861,11 +952,13 @@ Poglej ali na 8. liniji piše "String userName = vnos.nextLine();", če ja potem
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Podana je naslednja koda programa. Izberi vse pravilne trditve. Ena sama napaka pomeni 0 točk. (Naloga_D3)
 ```
-_odgovor:_
+
+**ODGOVOR:**
 
 > [!WARNING] 
 > NALOGA D3 IMA DVE PODOBNI SLIKI
@@ -893,11 +986,13 @@ Program ima logično napako in ne deluje pravilno
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Koliko vrstic se izpiše med izvedbo programa na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 
 > [!WARNING] 
 > POGLEJ PUBLIC CLASS (NALOGA_D1 IN NALOGA_D2)
@@ -911,11 +1006,13 @@ _odgovor:_
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Ali je prikazana koda programa pravilna rešitev opisanega problema?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Bot | NE
 
@@ -925,13 +1022,15 @@ Feet to Inches Converter | NE
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 > [!WARNING] 
 > V DOKUMENTU STA DVE ENAKI VPRAŠANJI, POGLEJ SLIKE TUDI DRUGEGA, ALI IŠČI PO KOTEKSTU SLIKE
 ```
 Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami. Presledkov na začetku in koncu ne sme biti.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 
 > [!WARNING] 
 > VPRAŠANJA IMAJO ENAKO IME, GLEJ SLIKICE. TO JE DEL JAVE, TEORIJA IMA SVOJ DEL
@@ -1003,41 +1102,49 @@ void { name else
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Kaj izpiše naslednji program?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 50
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Which of the following specifies that a method does not return any value?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 void
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 What is the return type of the following method?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 String
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Koliko vrstic izpiše naslednji program?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 
 > [!WARNING] 
 > ISTO VPRAŠANJE DRUGA SLIKICA
@@ -1067,11 +1174,13 @@ _odgovor:_
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 V katerih vrsticah je napaka v prikazanem programu?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ![štrucl_slike/java/18.png](štrucl_slike/slike_idk/v_katerih_vrsticah_je_napaka_v_prikazanem_programu_1.png)
 ```
 3
@@ -1083,11 +1192,13 @@ _odgovor:_
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Vnesi pravilen odgovor!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 
 ![štrucl_slike/java/19.png](štrucl_slike/java/19.png)
 `What is the result of demo(8, 3)?`
@@ -1096,118 +1207,140 @@ _odgovor:_
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 V programu iz videa Java JDBC Tutorial - Part 1: Connect to MySQL database with Java je zapisan naslednji del kode. Kateri komentar mu ustreza.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 // 4. Process the result set
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Koliko vrstic izpiše prikazan program?
 
 Koda programa, torej razreda Beri_iz_Accessa je na posebni sliki v tem istem razdelku.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Toliko kolikor je zapisov v tabeli Artikel.
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Koliko stolpcev izpiše prikazan program? Torej koliko stolpcev je v izpisu prikazanega programa?
 
 Koda programa, torej razreda Beri_iz_Accessa je na posebni sliki v tem istem razdelku.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 3
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Kateremu besedilu ustreza prikazana SQL koda?
 ```
 
 ![SELECT država, regija, površina](štrucl_slike/slike_idk/Kateremu_besedilu_ustreza_prikazana_sql_koda_1.png)
 `SELECT država, regija, površina FROM države WHERE površina = (SELECT MIN(površina))`
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Izpišite državo, regijo in površino za najmanjšo in največjo državo. Prva naj bo najmanjša.
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 V programu iz videa Java JDBC Tutorial - Part 2: Insert Data into a MySQL Database je zapisan naslednji del kode. Kateri komentar mu ustreza.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 // 4. Process the result set
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Besedilo Vaje 8: program, ki je rešitev prejšnje vaje (in izpiše vse podatke iz tabel Račun, Postavka in Artikel) spremeni tako, da:1. Izpiše koliko zapisov je v vsaki izmed tabel v priloženi bazi Račun 16T.accdb (Opomba: Besedilo Vaje 14 za 16 teden v spodnji nalogi beri kot "Besedilo Vaje 8".)
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 1
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Besedilo Vaje 8: program, ki je rešitev prejšnje vaje (in izpiše vse podatke iz tabel Račun, Postavka in Artikel) spremeni tako, da: 1. Izpiše koliko zapisov je v vsaki izmed tabel v priloženi bazi Račun 16T.accdb Pazi na to, koliko je vseh tabel v bazi Račun 16T.accdb (Opomba: Besedilo Vaje 14 za 16 teden v spodnji nalogi beri kot "Besedilo Vaje 8".)
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 5
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Katere ukazi vrnejo rešitev SQL_Rešitev_Vaja_15 iz prikazane slike?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 c
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Write once, run everywhere. This slogan means that:
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Java is platform-independent
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 True or false? Java is used only to build web apps.
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 False
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Which statements are true? Choose all the correct statements!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Java's slogan is "Write once, run anywhere".
 ```
@@ -1222,86 +1355,102 @@ The same Java code can run on different platforms, including mobile, desktop and
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Ali je naslednja koda pravilna rešitev problema Time Converter? (days = days * 3600)
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 To ni pravilna rešitev navedenega problema
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Which statement in regard to the char data type is true?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 'k' is a char
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Dopolni naslednjo kodo, z vnosom manjkajoče kode na mestih, ki so označena s podčrtaji (________). V tem primeru je samo eno takšno mesto, sicer jih je lahko več. Pazi! Bodo pozoren na podrobnosti v izpisu programa. Izpis je v dveh vrsticah. To je bistveno za tvojo pravilno rešitev, ki je lahko samo ena. Seveda vedno velja, da ločimo velikost črk. Pazi! Pri vnosu odgovora ne sme biti odvečnih začetnih presledkov pred prvo besedo odgovora in odvečnih končnih presledkov za zadnjo besedo odgovora. Med besedami, ki sestavljajo odgovor je vedno samo en presledek. Pomembna je tudi velikost črk. Torej na kratko: presledki samo med deli odgovora in velikost črk!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 println
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 V katerih vrsticah je napaka ali vzrok za morebitne napake v prikazanem delu programa? Zanimajo nas vrstice, ki so vzrok za sintaktične napake (med prevajanjem) in/ali vrstice z logično napako (ki so vzrok za napačno delovanje programa, ki ni v sladu z navodili oziroma besedilom naloge). Glej tudi podrobnejšo razlago v glavi tega razdelka z nalogami!
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 povrsinaKocke | 0
 prostorninaKocke | 17
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Kateri ukazi vrnejo rešitev SQL_Rešitev_Vaja_15 iz prikazane slike?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 c
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Imamo program v Javi, ki je preko JDBC vmesnika povezan s podatkovno bazo Račun v Accessu. Program: 1. Izpiše koliko zapisov je v vsaki izmed tabel v podani bazi.Programer je namesto enega predmeta ResultSet (ResultSet rs) uporabil pet predmetov tipa ResultSet, kot prikazuje koda. Vse ostalo v programu (kar se ne vidi na sliki) je nespremenjeno. Program je pred tem deloval. Ali deluje tudi po prikazani spremembi?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 DA
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Najmanj kolikokrat moramo v opisanem programu uporabiti izraz, ki ga prikazuje slika?
 Imamo program v Javi, k ije preko JDBC vmesnika povezan s podatkovno bazo Račun v Accessu. Program: 1. Izpiše vse podatke iz tabel Račun, Postavka in Artikel.
 ```
 ![rs = st.executeQuery](rs_=_st.executeQuery.png)
-_odgovor:_
+
+**ODGOVOR:**
 ```
 3
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 > [!WARNING] 
 > ISTO VPRAŠANJE DRUGA SLIKICA
 ```
 Kaj izpiše naslednji ukaz?
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ![SELECT COUNT(vrsta_izdelka)](štrucl_slike/slike_idk/SELECT_COUNT(vrsta_izdelka).png)
 ```
 Koliko je zapisov v tabeli
@@ -1352,11 +1501,13 @@ Razvrstite osebe od najmlajše do najstarejše.
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Podatkovni tip SMALLINT[(M)]
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Spada med cele številske podatkovne tipe
 ```
@@ -1371,11 +1522,13 @@ Dolžina tega podatkovnega tipa je 2 bajta
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Podatkovni tip DECIMAL[(M[, D])]
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Je realno število, shranjeno kot niz, z določeno decimalno vejico
 ```
@@ -1390,11 +1543,13 @@ FIXED[(M[,D])] [UNSIGNED] [ZEROFILL] je sinonim za DECIMAL
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Podatkovni tip DOUBLE(M, D)
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Spada med realne številske podatkovne tipe
 ```
@@ -1403,11 +1558,13 @@ Dolžina tega podatkovnega tipa je 8 bajtov
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Podatkovni tip FLOAT[(M, D)]
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Spada med realne številske podatkovne tipe
 ```
@@ -1419,11 +1576,13 @@ Dolžina tega podatkovnega tipa je 4 bajte
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Podatkovni tip BIGINT[(M)]
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Spada med cele številske podatkovne tipe
 ```
@@ -1435,11 +1594,13 @@ Dolžina tega podatkovnega tipa je 64 bitov
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Podatkovni tip TINYINT[(M)]
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Spada med cele številske podatkovne tipe
 ```
@@ -1454,11 +1615,13 @@ Dolžina tega podatkovnega tipa je 8 bitov
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Podatkovni tip MEDIUMINT[(M)]
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Spada med cele številske podatkovne tipe
 ```
@@ -1470,11 +1633,13 @@ Dolžina tega podatkovnega tipa je 3 bajte
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Podatkovni tip INT[(M)]
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Spada med cele številske podatkovne tipe
 ```
@@ -1483,11 +1648,13 @@ Dolžina tega podatkovnega tipa je 4 bajte
 ```
 
 ---
-_vprašanje:_
+**VPRAŠANJE:**
+
 ```
 Podatkovni tip BIT[(M)]
 ```
-_odgovor:_
+
+**ODGOVOR:**
 ```
 Je številski podatkovni tip, ki predstavlja bitno polje
 ```

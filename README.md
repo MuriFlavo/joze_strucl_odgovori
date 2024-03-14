@@ -1,7 +1,7 @@
 
 | Verzija | NUPp               | NUPt | JAVA |
 | ------- | ------------------ | ---- | ---- |
-| vaja01  | :heavy_check_mark: |      |      |
+| vaja01  | :white_check_mark: |      |      |
 | vaja02  | &check;            |      |      |
 | vaja03  | &check;            |      |      |
 | vaja04  |                    |      |      |

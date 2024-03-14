@@ -1,17 +1,17 @@
 
-| Verzija | NUPp               | NUPt | JAVA |
-| ------- | ------------------ | ---- | ---- |
+| Verzija |        NUPp        | NUPt | JAVA |
+|:-------:|:------------------:| ---- | ---- |
 | vaja01  | :white_check_mark: |      |      |
-| vaja02  | &check;            |      |      |
-| vaja03  | &check;            |      |      |
+| vaja02  | :white_check_mark: |      |      |
+| vaja03  | :white_check_mark: |      |      |
 | vaja04  |                    |      |      |
-| vaja05  | &check;            |      |      |
-| vaja06  | &check;            |      |      |
+| vaja05  | :white_check_mark: |      |      |
+| vaja06  | :white_check_mark: |      |      |
 | vaja07  |                    |      |      |
 | vaja08  |                    |      |      |
-| vaja09  | &check;            |      |      |
+| vaja09  | :white_check_mark: |      |      |
 | vaja10  |                    |      |      |
-| vaja11  | &check;            |      |      |
+| vaja11  | :white_check_mark: |      |      |
 | vaja12  |                    |      |      |
 | vaja13  |                    |      |      |
 | vaja14  |                    |      |      |

@@ -1361,9 +1361,6 @@ _odgovor:_
 Spada med cele številske podatkovne tipe
 ```
 ```
-Je številski podatkovni tip, ki predstavlja bitno polje
-```
-```
 Oznaka M pomeni največje število števk v prikazu
 ```
 ```
@@ -1388,6 +1385,9 @@ NUMERIC[(M[,D])] [UNSIGNED] [ZEROFILL] je sinonim za DECIMAL
 ```
 FIXED[(M[,D])] [UNSIGNED] [ZEROFILL] je sinonim za DECIMAL
 ```
+```
+Spada med realne številske podatkovne tipe
+```
 
 ---
 _vprašanje:_
@@ -1400,6 +1400,9 @@ Spada med realne številske podatkovne tipe
 ```
 ```
 Dolžina tega podatkovnega tipa je 8 bajtov
+```
+```
+Dolžina tega podatkovnega tipa je 64 bitov
 ```
 
 ---
@@ -1428,9 +1431,6 @@ _odgovor:_
 Spada med cele številske podatkovne tipe
 ```
 ```
-Je številski podatkovni tip, ki predstavlja bitno polje
-```
-```
 Dolžina tega podatkovnega tipa je 64 bitov
 ```
 
@@ -1442,9 +1442,6 @@ Podatkovni tip TINYINT[(M)]
 _odgovor:_
 ```
 Spada med cele številske podatkovne tipe
-```
-```
-Je številski podatkovni tip, ki predstavlja bitno polje
 ```
 ```
 Oznaka M pomeni največje število števk v prikazu
@@ -1468,6 +1465,9 @@ Oznaka M pomeni največje število števk v prikazu
 ```
 Dolžina tega podatkovnega tipa je 3 bajte
 ```
+```
+Dolžina tega podatkovnega tipa je 24 bitov
+```
 
 ---
 _vprašanje:_
@@ -1481,6 +1481,9 @@ Spada med cele številske podatkovne tipe
 ```
 Dolžina tega podatkovnega tipa je 4 bajte
 ```
+```
+Dolžina tega podatkovnega tipa je 32 bitov
+```
 
 ---
 _vprašanje:_
@@ -1488,9 +1491,6 @@ _vprašanje:_
 Podatkovni tip BIT[(M)]
 ```
 _odgovor:_
-```
-Je številski podatkovni tip, ki predstavlja bitno polje
-```
 ```
 M pomeni število bitov v polju
 ```

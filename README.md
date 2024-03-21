@@ -462,6 +462,7 @@ FROM ime_tabele;
 ```
 če je to mogoče, podvoji vse zapise v tabeli
 ```
+
 # NUPp
 ## 1. Tedensko Ocenjevanje
 
@@ -749,8 +750,8 @@ Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke
 ```
 ## 3. Tedensko Ocenjevanje
 
-#java_slika
 ```java
+//java_slika
 /* P1: Napiši program, ki izpiše števila 1 do 5.
 Vsako število naj bo v svoji vrstici.
 Uporabiti moraš zanko? */
@@ -766,8 +767,8 @@ class Myclass {
 }
 ```
 
-#java_slika2
 ```java
+//java_slika2
 public class Program_v1 {
     
     public static void main(String[] args) {
@@ -788,6 +789,8 @@ public class Program_v1 {
 }
 ```
 
+^7f6399
+
 ---
 **VPRAŠANJE:**
 
@@ -801,8 +804,7 @@ VSE
 ---
 **VPRAŠANJE:**
 
-Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! [slika2](#java_slika2)
-
+Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! ![[#^7f6399]]
 **ODGOVOR:**
 ```
 3
@@ -977,13 +979,15 @@ public class Program_User_Input {
 ```
 DA
 ```
-## 6. Tedensko Ocenjevanje
 
 ---
+## 6. Tedensko Ocenjevanje
+
 **VPRAŠANJE:**
 
 Podana je naslednja koda programa. Izberi vse pravilne trditve. Ena sama napaka pomeni 0 točk.
 
+>[!WARNING] 2 Sliki skoraj identični poglej v *2. if* za < | >
 ```java
 import java.util.Scanner;
 public class Naloga_D3 {
@@ -1048,6 +1052,7 @@ public class Naloga_D1 {
 
 Podana je naslednja koda programa. Izberi vse pravilne trditve. Ena sama napaka pomeni 0 točk.
 
+>[!WARNING] 2 Sliki skoraj identični poglej v *2. if* za < | >
 ```java
 import java.util.Scanner;
 public class Naloga_D3 {
@@ -1060,7 +1065,7 @@ public class Naloga_D3 {
         if(vnos<10){
             System.out.println(vnos);}
         else{
-            if (vnos<100){
+            if (vnos>100){
                 System.out.println("Število je dvomestno.");
             }
             else{
@@ -1071,6 +1076,25 @@ public class Naloga_D3 {
     
 }
 ```
+
+**ODGOVOR:**
+```
+Če vnesemo 7 program izpiše 7
+```
+```
+Če vnesemo 10 program izpiše 10
+```
+```
+Če vnesemo 100 program izpiše 100
+```
+```
+Program ima logično napako in ne deluje pravilno
+```
+
+---
+**VPRAŠANJE:**
+
+Koliko vrstic se izpiše med izvedbo programa na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 
 **ODGOVOR:**
 ```

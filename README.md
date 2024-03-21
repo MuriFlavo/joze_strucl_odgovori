@@ -767,7 +767,7 @@ class Myclass {
 }
 ```
 
-java_slika2[^2]
+java_slika2[^java_slika2]
 ```java
 public class Program_v1 {
     
@@ -789,8 +789,6 @@ public class Program_v1 {
 }
 ```
 
-^7f6399
-
 ---
 **VPRAŠANJE:**
 
@@ -804,7 +802,8 @@ VSE
 ---
 **VPRAŠANJE:**
 
-Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! [^2]: slika2
+Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! 
+[^java_slika2]: slika
 
 **ODGOVOR:**
 ```

@@ -750,8 +750,8 @@ Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke
 ```
 ## 3. Tedensko Ocenjevanje
 
+java_slika[^1]
 ```java
-//java_slika
 /* P1: Napiši program, ki izpiše števila 1 do 5.
 Vsako število naj bo v svoji vrstici.
 Uporabiti moraš zanko? */
@@ -767,8 +767,8 @@ class Myclass {
 }
 ```
 
+java_slika2[^2]
 ```java
-//java_slika2
 public class Program_v1 {
     
     public static void main(String[] args) {
@@ -804,7 +804,8 @@ VSE
 ---
 **VPRAŠANJE:**
 
-Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! ![[#^7f6399]]
+Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! [^2]: slika2
+
 **ODGOVOR:**
 ```
 3

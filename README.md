@@ -13,9 +13,9 @@ Nekaj info:
 | vaja01  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | vaja02  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | vaja03  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| vaja04  | :white_check_mark: | :white_check_mark: |                    |
-| vaja05  | :white_check_mark: | :white_check_mark: |                    |
-| vaja06  | :white_check_mark: | :white_check_mark: |                    |
+| vaja04  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| vaja05  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| vaja06  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | vaja07  |                    | :white_check_mark: |                    |
 | vaja08  |                    |                    |                    |
 | vaja09  |                    |                    |                    |
@@ -722,7 +722,23 @@ Najmanj koliko ocen boš dobil pri predmetu kot celoti v posameznem ocenjevalnem
 ---
 **VPRAŠANJE:**
 
-Koliko spremenljivk je uporabljenih v programu na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! Argumenta metode main() ne štej za spremenljivko. [slika](#java_slika)
+Koliko spremenljivk je uporabljenih v programu na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! Argumenta metode main() ne štej za spremenljivko.
+
+```java
+/* P1: Napiši program, ki izpiše števila 1 do 5.
+Vsako število naj bo v svoji vrstici.
+Uporabiti moraš zanko? */
+
+class Myclass {
+    public static void main(String[ ] args) {
+        
+        System.out.printIn("To se naredi tako.\n");
+            for(int i=1; i<= 5; i++) { 
+                System.out.println(i);
+            }
+    }
+}
+```
 
 **ODGOVOR:**
 ```
@@ -742,15 +758,8 @@ NE
 ---
 **VPRAŠANJE:**
 
-Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! Pazi! Štejejo se tudi morebitne prazne vrstice v izpisu programa. [slika](#java_slika)
+Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! Pazi! Štejejo se tudi morebitne prazne vrstice v izpisu programa.
 
-**ODGOVOR:**
-```
-7
-```
-## 3. Tedensko Ocenjevanje
-
-java_slika[^1]
 ```java
 /* P1: Napiši program, ki izpiše števila 1 do 5.
 Vsako število naj bo v svoji vrstici.
@@ -767,7 +776,30 @@ class Myclass {
 }
 ```
 
-java_slika2[^java_slika2]
+**ODGOVOR:**
+```
+7
+```
+## 3. Tedensko Ocenjevanje
+
+java_slika
+```java
+/* P1: Napiši program, ki izpiše števila 1 do 5.
+Vsako število naj bo v svoji vrstici.
+Uporabiti moraš zanko? */
+
+class Myclass {
+    public static void main(String[ ] args) {
+        
+        System.out.printIn("To se naredi tako.\n");
+            for(int i=1; i<= 5; i++) { 
+                System.out.println(i);
+            }
+    }
+}
+```
+
+java_slika2
 ```java
 public class Program_v1 {
     
@@ -802,8 +834,28 @@ VSE
 ---
 **VPRAŠANJE:**
 
-Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! 
-[^java_slika2]: slika
+Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
+
+```java
+public class Program_v1 {
+    
+    public static void main(String[] args) {
+        // Zamislimo si dve 2D točki
+        double xA = 1.0, yA = 1.0;
+        double xB = 3.0, yB = 3.0;
+        // Izpišemo dve 2D točki
+        System.out.print("Točka A(");
+        System.out.print(xA + "," + yA + ")");
+        System.out.println();
+        System.out.print("Točka B(");
+        System.out.print (×B + "," + yB + ")");
+        // Izpišemo še razdaljo med tčckama
+        double razdalja = Math.sqrt(Math.pow(xB-xA, 2) + Math.pow(yB-yA, 2));
+        System.out.print("\nRazdalja AB = " + razdalja);
+    }
+    
+}
+```
 
 **ODGOVOR:**
 ```
@@ -813,7 +865,28 @@ Koliko vrstic izpiše program na sliki? Odgovoriti moraš z vnosom ene številke
 ---
 **VPRAŠANJE:**
 
-Koliko spremenljivk je uporabljenih v programu na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka! [slika2](#java_slika2)
+Koliko spremenljivk je uporabljenih v programu na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
+
+```java
+public class Program_v1 {
+    
+    public static void main(String[] args) {
+        // Zamislimo si dve 2D točki
+        double xA = 1.0, yA = 1.0;
+        double xB = 3.0, yB = 3.0;
+        // Izpišemo dve 2D točki
+        System.out.print("Točka A(");
+        System.out.print(xA + "," + yA + ")");
+        System.out.println();
+        System.out.print("Točka B(");
+        System.out.print (×B + "," + yB + ")");
+        // Izpišemo še razdaljo med tčckama
+        double razdalja = Math.sqrt(Math.pow(xB-xA, 2) + Math.pow(yB-yA, 2));
+        System.out.print("\nRazdalja AB = " + razdalja);
+    }
+    
+}
+```
 
 **ODGOVOR:**
 ```
@@ -987,7 +1060,7 @@ DA
 
 Podana je naslednja koda programa. Izberi vse pravilne trditve. Ena sama napaka pomeni 0 točk.
 
->[!WARNING] 2 Sliki skoraj identični poglej v *2. if* za < | >
+>[!WARNING] 2 Sliki skoraj identični poglej *2. if* za < | >
 ```java
 import java.util.Scanner;
 public class Naloga_D3 {
@@ -995,7 +1068,7 @@ public class Naloga_D3 {
     public static void main(String[] args) {
         // Rešitev naloge D3
         System.out.print("D3 - Vnesite število: ");;
-        Scanner vhod = new Scanner (System.in);
+        Scanner vhod = new Scanner(System.in);
         int vnos = vhod.nextInt();
         if(vnos<10){
             System.out.println(vnos);}
@@ -1060,7 +1133,7 @@ public class Naloga_D3 {
     public static void main(String[] args) {
         // Rešitev naloge D3
         System.out.print("D3 - Vnesite število: ");;
-        Scanner vhod = new Scanner (System.in);
+        Scanner vhod = new Scanner(System.in);
         int vnos = vhod.nextInt();
         if(vnos<10){
             System.out.println(vnos);}
@@ -1096,7 +1169,31 @@ Program ima logično napako in ne deluje pravilno
 
 Koliko vrstic se izpiše med izvedbo programa na sliki? Odgovoriti moraš z vnosom ene številke. Zapiši kot število, ne kot besedo s črkami. Pravilna je samo ena številka!
 
-**ODGOVOR:**
+```java
+import java.util.Scanner;
+public class Naloga_D2 {
+
+	public static void main(String[] args) {
+		// Rešitev naloge Naloga_D2
+		System.out.print("D2 - Vnesite število: ");;
+		Scanner vhod = new Scanner(System.in);
+		int vnos = vhod.nextInt();
+		if(vnos<10){
+			System.out.println("Število je enomestno.");}
+		else{
+		if(vnos<100){
+			System.out.println("Število je dvomestno.");
+		}
+		else{
+			System.out.println("Število je večmestno.");
+			｝
+		}
+	}
+	
+}
 ```
 
+**ODGOVOR:**
+```
+2
 ```

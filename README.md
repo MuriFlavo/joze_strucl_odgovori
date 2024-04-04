@@ -8,24 +8,25 @@ Nekaj info:
 
 # SUPPORT
 
-| Verzija |        NUPt        | NUPp               | JAVA               |
-| :-----: | :----------------: | ------------------ | ------------------ |
-| vaja01  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| vaja02  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| vaja03  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| vaja04  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| vaja05  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| vaja06  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| vaja07  |                    | :white_check_mark: |                    |
-| vaja08  |                    |                    |                    |
-| vaja09  |                    |                    |                    |
-| vaja10  |                    |                    |                    |
-| vaja11  |                    |                    |                    |
-| vaja12  |                    |                    |                    |
-| vaja13  |                    |                    |                    |
-| vaja14  |                    |                    |                    |
-| vaja15  |                    |                    |                    |
-| vaja16  |                    |                    |                    |
+|     Naloga     |        NUPt        | NUPp               | JAVA               |
+| :------------: | :----------------: | ------------------ | ------------------ |
+|     vaja01     | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+|     vaja02     | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+|     vaja03     | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+|     vaja04     | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+|     vaja05     | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+|     vaja06     | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+|     vaja07     |                    | :white_check_mark: |                    |
+|     vaja08     |                    |                    |                    |
+|     vaja09     |                    |                    |                    |
+|     vaja10     |                    |                    | :white_check_mark: |
+|     vaja11     |                    |                    | :white_check_mark: |
+|     vaja12     |                    |                    | :white_check_mark: |
+|     vaja13     |                    |                    | :white_check_mark: |
+|     vaja14     |                    |                    |                    |
+|     vaja15     |                    |                    |                    |
+|     vaja16     |                    |                    |                    |
+| 2. preveranjae |                    |                    | :white_check_mark: |
 
 # NUPt
 ## 1. Tedensko Ocenjevanje
@@ -1196,4 +1197,1520 @@ public class Naloga_D2 {
 **ODGOVOR:**
 ```
 2
+```
+## 10. Tedensko Ocenjevanje
+
+---
+**VPRAŠANJE:**
+
+Koliko novih objektov tvorimo v metodi main()?
+
+```java
+public class Vehicle {
+	int maxSpeed;
+	int wheels;
+	String color;
+	double fuelCapacity;
+
+	void horn() {
+		System.out.println("Beep!");
+	}
+}
+
+class MyClass {
+	public static void main(String[ ] args) {
+		Vehicle v1 = new Vehicle();
+		Vehicle v2 = new Vehicle();
+		v1.color = "red";
+		v2.horn();
+	}
+}
+```
+
+**ODGOVOR:**
+```
+2
+```
+
+---
+**VPRAŠANJE:**
+
+Za podano trditev izberi vse pravilne odgovore. Če niso izbrani vsi pravilni odgovor ni točk.
+
+```
+Getters and Setters are used to effectively protect your data, particularly when creating classes. For each variable, the get method returns its value, while the set method sets the value.
+```
+
+**ODGOVOR:**
+```
+Getters start with get, followed by the variable name, with the first letter of the variable name capitalized.
+```
+```
+Setters start with set, followed by the variable name, with the first letter of the variable name capitalized.
+```
+
+---
+**VPRAŠANJE:**
+
+Koliko funkcij oziroma metod ima razred Vehicle?
+
+```java
+public class vehicle {
+	int maxSpeed;
+	int wheels;
+	String color;
+	double fuelCapacity;
+
+	void horn() {
+		System.out.println("Beep!");
+	}
+}
+```
+
+**ODGOVOR:**
+```
+1
+```
+
+---
+**VPRAŠANJE:**
+
+Object-Orientation A class defines... (choose two) Select All That Apply
+
+**ODGOVOR:**
+```
+behaviour
+```
+```
+attributes
+```
+
+---
+**VPRAŠANJE:**
+
+Za podano trditev izberi vse pravilne odgovore. Če niso izbrani vsi pravilni odgovor ni točk.
+
+```
+What would the name of the setter method for the class variable named "age" be?
+```
+
+**ODGOVOR:**
+```
+setAge
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami. Presledkov na začetku in koncu ne sme biti.
+
+```java
+public [ ] A {
+  public void test() {
+    System.out.println("Hi");
+  }
+}
+
+class B {
+  public static void main(String args[ ]) {
+    [ ] obj = [ ] A();
+    obj.[ ];
+  }
+}
+```
+
+**ODGOVOR:**
+```
+class A new test()
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami. Presledkov na začetku in koncu ne sme biti.
+
+**Methods**
+Fill in the blanks to call the method "hello" from main:
+```java
+public static void main(String[ ] args) {
+  [ ];
+}
+
+static void hello() {
+  System.out.println("hi");
+}
+```
+
+**ODGOVOR:**
+```
+hello()
+```
+
+---
+**VPRAŠANJE:**
+
+V katerih vrsticah  je napaka v prikazanem programu?
+
+```java
+public class Vehicle {
+	private String color;
+
+	// Getter
+	public String getColor() {
+		return this.color;
+	}
+
+	// Setter
+	public void setColor(String c) {
+		color = c;
+	}
+}
+
+class Program {
+	public static void main(String[ ] args) {
+		Vehicle v1 = new Vehicle();
+		v1.setColor("Red");
+		System.out.println(v1.getColor());
+	}
+}
+```
+
+**ODGOVOR:**
+```
+0
+```
+
+---
+**VPRAŠANJE:**
+
+Za podano trditev izberi vse pravilne odgovore. Če niso izbrani vsi pravilni odgovor ni točk.
+
+`The following choices are available for attributes and methods:`
+
+**ODGOVOR:**
+```
+protected: Provides the same access as the default access modifier, with the addition that subclasses can access protected methods and variables of the superclass (Subclasses and superclasses are covered in upcoming lessons).
+```
+```
+default: A variable or method declared with no access control modifier is available to any other class in the same package.
+```
+```
+public: Accessible from any other class.
+```
+```
+private: Accessible only within the declared class itself.
+```
+
+---
+**VPRAŠANJE:**
+
+Kaj izpiše naslednji program?
+
+```java
+public class Vehicle {
+	private String color;
+
+	// Getter
+	public String getColor() {
+		return color;
+	}
+
+	// Setter
+	public void setColor(String c) {
+		this.color = c;
+	}
+}
+
+class Program {
+	public static void main(String[ ] args) {
+		Vehicle v1 = new Vehicle();
+		v1.setColor("Red");
+		System.out.println(v1.getColor());
+	}
+}
+```
+
+**ODGOVOR:**
+```
+Red
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami. Presledkov na začetku in koncu ne sme biti.
+
+```java
+public static void main(String[ ] args) {
+  [ ] x = 10;
+  test([ ]);
+}
+
+static void test(int x) {
+  System.out.println(x);
+}
+```
+
+**ODGOVOR:**
+```
+int x
+```
+
+---
+**VPRAŠANJE:**
+
+V katerih vrsticah  je napaka v prikazanem programu?
+
+```java
+public class Vehicle {
+	private String color;
+
+	// Getter
+	public String getColor() {
+		return color;
+	}
+
+	// Setter
+	public void setColor(String c) {
+		this.color = c;
+	}
+}
+
+class Program {
+	public static void main(String[ ] args) {
+		Vehicle v1 = new Vehicle();
+		v1.setColor("Red");
+		System.out.println(v1.getColor());
+	}
+}
+```
+
+**ODGOVOR:**
+```
+0
+```
+
+---
+**VPRAŠANJE:**
+
+V katerih vrsticah  je napaka v prikazanem programu?
+
+```java
+class MyClass {
+
+	static void sayHello() {
+		System out prinln("Hello World!");
+	}
+
+	public static void main(String[ ] args) {
+		sayHello();
+		sayHello();
+		sayHello();
+	}
+	
+}
+```
+
+**ODGOVOR:**
+```
+4
+```
+
+---
+**VPRAŠANJE:**
+
+Za podano trditev izberi vse pravilne odgovore. Če niso izbrani vsi pravilni odgovor ni točk.
+
+```
+Which of the following are valid access modifiers?
+Select All That Apply
+```
+
+**ODGOVOR:**
+```
+public
+```
+```
+protected
+```
+```
+private
+```
+
+---
+**VPRAŠANJE:**
+
+V katerih vrsticah  je napaka v prikazanem programu?
+
+```java
+public class Vehicle {
+	private String color;
+
+	// Getter
+	public String getColor() {
+		return this.color;
+	}
+
+	// Setter
+	public void setColor(String c) {
+		c = color;
+	}
+}
+
+class Program {
+	public static void main(String[ ] args) {
+		Vehicle v1 = new Vehicle();
+		v1.setColor("Red");
+		System.out.println(v1.getColor());
+	}
+}
+```
+
+**ODGOVOR:**
+```
+11
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami. Presledkov na začetku in koncu ne sme biti.
+
+```java
+public class Vehicle {
+	private String color;
+
+	// Getter
+	public String getColor() {
+		return color;
+	}
+
+	// Setter
+	public void setColor(String c) {
+		this.color = c;
+	}
+}
+
+The ...... method return the value of the attribute.
+The ...... method takes a parameter and assigns it to
+the attribute.
+
+The keyword .... is used to refer to the current object.
+Basically, this.color is the color attribute of the
+current object.
+}
+```
+
+**ODGOVOR:**
+```
+getter setter this
+```
+
+---
+**VPRAŠANJE:**
+
+Kaj izpiše naslednji program?
+
+```java
+class Program {
+
+	public static void main(String[ ] args) {
+		int res = madMax(7, 42);
+		System.out.println(res);
+	}
+
+	static int madMax(int a, int b) {
+		if(b > a) {
+			return a;
+		}
+		else {
+			return b;
+		}
+	}
+
+}
+```
+
+**ODGOVOR:**
+```
+7
+```
+
+---
+**VPRAŠANJE:**
+
+Za podano trditev izberi vse pravilne odgovore. Če niso izbrani vsi pravilni odgovor ni točk.
+
+`For classes, the available modifiers are public or default (left blank), as described below:`
+
+**ODGOVOR:**
+```
+default: The class is accessible only by classes in the same package.
+```
+```
+public: The class is accessible by any other class.
+```
+
+---
+**VPRAŠANJE:**
+
+V katerih vrsticah  je napaka v prikazanem programu?
+
+```java
+public class Vehicle {
+	private String color;
+
+	// Getter
+	public String getColor() {
+		return color;
+	}
+
+	// Setter
+	public void setColor(int c) {
+		this.color = c;
+	}
+}
+
+class Program {
+	public static void main(String[ ] args) {
+		Vehicle v1 = new Vehicle();
+		v1.setColor("Red");
+		System.out.println(v1.getColor());
+	}
+}
+```
+
+**ODGOVOR:**
+```
+10
+```
+
+---
+**VPRAŠANJE:**
+
+V katerih vrsticah  je napaka v prikazanem programu?
+
+```java
+class MyClass {
+
+	static void sayHello() {
+		System.out.println("Hello World!")
+	}
+
+	public static void main(String[ ] args) {
+		sayHello();
+	}
+	
+}
+```
+
+**ODGOVOR:**
+```
+4
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami. Presledkov na začetku in koncu ne sme biti.
+
+```java
+class A {
+	private int x;
+	public [ ] getX() {
+		return [ ];
+	}
+
+	public [ ] setX(int x) {
+		this.x = x;
+	}
+}
+```
+
+**ODGOVOR:**
+```
+int x void
+```
+
+---
+**VPRAŠANJE:**
+
+Koliko metod je napisanih v naslednjem programu?
+
+```java
+class MyClass {
+
+	static void sayHello() {
+		System.out.println("Hello World!")
+	}
+
+	public static void main(String[ ] args) {
+		sayHello();
+	}
+	
+}
+```
+
+**ODGOVOR:**
+```
+2
+```
+## 11. Tedensko Ocenjevanje
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede oziroma dele odgovora, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami oziroma posameznimi deli odgovora. Presledkov na začetku in koncu ne sme biti.
+
+`What keyword makes a variable a constant?`
+
+**ODGOVOR:**
+```
+final
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede oziroma dele odgovora, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami oziroma posameznimi deli odgovora. Presledkov na začetku in koncu ne sme biti.
+
+`Drag and drop from the options below to create a valid constructor`
+
+```java
+class Person {
+private int age;
+public[ ]([ ] myage) {
+age = myage;
+}
+}
+```
+
+**ODGOVOR:**
+```
+Person int
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede oziroma dele odgovora, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami oziroma posameznimi deli odgovora. Presledkov na začetku in koncu ne sme biti.
+
+```java
+[ ] A
+{
+	private int x;
+		public A([ ] val) {
+			x = val;
+		}
+}
+```
+
+**ODGOVOR:**
+```
+calss int
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede oziroma dele odgovora, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami oziroma posameznimi deli odgovora. Presledkov na začetku in koncu ne sme biti.
+
+`Fill in the blank to declare a static variable.`
+
+```java
+public [ ] int x = 0;
+```
+
+**ODGOVOR:**
+```
+static
+```
+
+---
+**VPRAŠANJE:**
+
+Kaj izpiše naslednji program?
+
+```java
+class Person {
+public static int pCount;
+public static void main(String[] args){
+	Person.pCount = 1;
+	Person.pCount++;
+	System.out.println(Person.pCount);
+}
+}
+```
+
+**ODGOVOR:**
+```
+2
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami. Presledkov na začetku in koncu ne sme biti.
+
+`Fill in the blanks to create two objects from the class "People."`
+
+```java
+People obj1 = [ ] People();
+People obj2 = new People[ ];
+```
+
+**ODGOVOR:**
+```
+new ()
+```
+
+---
+**VPRAŠANJE:**
+
+How many packages can be contained in a Java program?
+
+**ODGOVOR:**
+```
+as many as you need
+```
+
+---
+**VPRAŠANJE:**
+
+True or false: **import samples**.*; will import all classes in the samples package.
+
+**ODGOVOR:**
+```
+True
+```
+
+---
+**VPRAŠANJE:**
+
+True or false: The  **main** method must always be **static**.
+
+**ODGOVOR:**
+```
+True
+```
+## 12. Tedensko Ocenjevanje
+
+---
+**VPRAŠANJE:**
+
+Which access modifier explicitly says that a method or variable of an object can be accessed by code from outside of the class of that object?
+
+**ODGOVOR:**
+```
+public
+```
+
+---
+**VPRAŠANJE:**
+
+True or false:  Methods and classes can also be marked **final**.
+
+**ODGOVOR:**
+```
+True
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede oziroma dele odgovora, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami oziroma posameznimi deli odgovora. Presledkov na začetku in koncu ne sme biti.
+
+`Fill in the blank to inherit the Car class from the Vehicle class.`
+
+```java
+class Car [ ] Vehicle{}
+```
+
+**ODGOVOR:**
+```
+extends
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede oziroma dele odgovora, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami oziroma posameznimi deli odgovora. Presledkov na začetku in koncu ne sme biti.
+
+`Fill in the blanks to create a class with the method called "myFunc" that takes no parameters, return void, and prints "Hi" to the screen.`
+```
+public [ ] MyClass [ ]
+	public [ ] myFunc [] {
+		System.out.println(''Hi'');
+	}
+}
+```
+
+**ODGOVOR:**
+```
+class { void ()
+```
+
+---
+**VPRAŠANJE:**
+
+4 How many packages can be contained in a Java program?
+
+**ODGOVOR:**
+```
+as many as you need
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede oziroma dele odgovora, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami oziroma posameznimi deli odgovora. Presledkov na začetku in koncu ne sme biti.
+
+`Fill in the blanks to declare a method that takes one argument of type int.`
+```java
+public int myFunc([ ] x) [ ]
+	return x*10;
+[ ]
+```
+
+**ODGOVOR:**
+```
+int { }
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede oziroma dele odgovora, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami oziroma posameznimi deli odgovora. Presledkov na začetku in koncu ne sme biti.
+
+`Fill in the blank to define a method that does not return a value.`
+```java
+public [ ] calc()
+```
+
+**ODGOVOR:**
+```
+void
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede oziroma dele odgovora, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami oziroma posameznimi deli odgovora. Presledkov na začetku in koncu ne sme biti.
+
+`Fill in the blanks to inherit from the Animal class and call its method in main.`
+```java
+class Animal {
+	public void makeSound {
+	System.out.prinln(''Hi'');
+	}
+}
+[ ] Dog [ ] Animal {
+}
+class A {
+	public static void main(String args[ ]) {
+	Dog dog = new Dog();
+	[ ].makeSound();
+	}
+}
+```
+
+**ODGOVOR:**
+```
+class extends dog
+```
+
+---
+**VPRAŠANJE:**
+
+In summary, **encapsulation** provides the following benefits:   Select All That Apply
+
+**ODGOVOR:**
+```
+More flexible and easily changed code
+```
+```
+Ability to change one part of the code without affecting other parts
+```
+```
+Control of the way data is accessed or modified
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede oziroma dele odgovora, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami oziroma posameznimi deli odgovora. Presledkov na začetku in koncu ne sme biti.
+
+`Drag and drop from the options below to create a valid Java code with encapsulation.`
+```java
+public class Person {
+[ ] int age;
+[ ] void setAge([ ] age) {
+if (age > 0) {
+this.age = age;
+}
+}
+}
+```
+
+**ODGOVOR:**
+```
+private public int
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede oziroma dele odgovora, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami oziroma posameznimi deli odgovora. Presledkov na začetku in koncu ne sme biti.
+
+`Fill in the blanks to create a method that return the minimum of the two parameters.`
+```java
+public int minFunc(int n1, int n2 [ ] {
+	int min;
+	if (n1 > n2)
+		min = [ ];
+	[ ]
+		min = n1;
+	
+	[ ] min;
+}
+```
+
+**ODGOVOR:**
+```
+) n2 else return
+```
+
+---
+**VPRAŠANJE:**
+
+Private methods are inherited from the super class.
+
+**ODGOVOR:**
+```
+false
+```
+## 13. Tedensko Ocenjevanje
+
+---
+**VPRAŠANJE:**
+
+V katerih vrsticah  je napaka v prikazanem programu?
+
+```java
+public class Vehicle {
+	private String color;
+
+	Vehicle() {
+		this.setColor("Red");
+	}
+	Vehicle(String c){
+		this.setColor(c);
+	}
+
+	// Setter
+	public setColor(String c) {
+		this.color = c;
+	}
+
+	// Getter
+	public String getColor() {
+		return color;
+	}
+}
+
+public class Program {
+	public static void main(String[] args) {
+	//color will be "Red"
+	Vehicle v1 = Vehicle();
+
+	//color will be "Green"
+	Vehicle v2 = new Vehicle("Green");
+
+	System.out.println(v1.getColor());
+	}
+}
+```
+
+**ODGOVOR:**
+```
+12 25
+```
+
+---
+**VPRAŠANJE:**
+
+Koliko funkcij oziroma metod ima razred Vehicle? Vsak konstruktor štej kot eno metodo.
+
+```java
+public class Vehicle {
+	private String color;
+
+	Vehicle() {
+		this.setColor("Red");
+	}
+	Vehicle(String c){
+		this.setColor(c);
+	}
+
+	// Setter
+	public void setColor(String c) {
+		this.color = c;
+	}
+
+	// Getter
+	public String getColor() {
+		return color;
+	}
+}
+
+public class Program {
+	public static void main(String[] args) {
+	//color will be "Red"
+	Vehicle v1 = new Vehicle();
+
+	//color will be "Green"
+	Vehicle v2 = new Vehicle("Green");
+
+	System.out.println(v1.getColor());
+	}
+}
+```
+
+**ODGOVOR:**
+```
+5
+```
+
+---
+**VPRAŠANJE:**
+
+Izberi vse pravilne trditve.
+
+**ODGOVOR:**
+```
+You can think of constructors as methods that will set up your class by default, so you don’t need to repeat the same code every time.
+```
+```
+Constructors are special methods invoked when an object is created and are used to initialize them.
+```
+```
+A constructor can be used to provide initial values for object attributes.
+```
+```
+A constructor can also take parameters to initialize attributes.
+```
+```
+A constructor must have no explicit return type.
+```
+```
+A constructor name must be same as its class name.
+```
+
+---
+**VPRAŠANJE:**
+
+Izberi pravilno trditev.
+
+`True of false: The constructor must have the same name as the class.`
+
+**ODGOVOR:**
+```
+True
+```
+
+---
+**VPRAŠANJE:**
+
+Izberi vse pravilne trditve.
+
+**ODGOVOR:**
+```
+The setter methods inside the constructors can be used to set the attribute values.
+```
+```
+The constructor is called when you create an object using the new keyword.
+```
+```
+A single class can have multiple constructors with different numbers of parameters.
+```
+```
+Java automatically provides a default constructor, so all classes have a constructor, whether one is specifically defined or not.
+```
+
+---
+**VPRAŠANJE:**
+
+Izberi vse pravilne trditve.
+
+**ODGOVOR:**
+```
+A constructor must have no explicit return type.
+```
+```
+Constructors are special methods invoked when an object is created and are used to initialize them.
+```
+```
+A constructor name must be same as its class name.
+```
+```
+A constructor can be used to provide initial values for object attributes.
+```
+## Priprava na 2. Pisni preizkus znanja
+
+---
+**VPRAŠANJE:**
+
+Izberi vse pravilne trditve. Kako zagotavljamo kvalitetno izvorno kodo programa, ki je pregledna in posledično pomeni, da bomo program lažje razumeli in spreminjali oziroma vzdrževali? Povedano drugače, kako hitro napišemo dobro delujoč program?
+
+**ODGOVOR:**
+```
+VSI ODGOVORI
+```
+
+---
+**VPRAŠANJE:**
+
+Kaj izpiše naslednji program?
+
+```java
+What is the output of this code?
+public static void main(String[ ] args) {
+  int x = 4;
+  square(x);
+  System.out.println(x);
+
+static void square(int x) {
+  x = x*x;
+}
+```
+
+**ODGOVOR:**
+```
+4
+```
+
+---
+**VPRAŠANJE:**
+
+Za podano trditev izberi vse pravilne odgovore. Če niso izbrani vsi pravilni odgovor ni točk.
+
+```
+What would the name of the setter method for the class variable named "age" be?
+```
+
+**ODGOVOR:**
+```
+setAge
+```
+
+---
+**VPRAŠANJE:**
+
+Koliko novih objektov tvorimo v metodi main()?
+
+```java
+public class Vehicle {
+	int maxSpeed;
+	int wheels;
+	String color;
+	double fuelCapacity;
+
+	void horn() {
+		System.out.println("Beep!");
+	}
+}
+
+class MyClass {
+	public static void main(String[ ] args) {
+		Vehice v1 = new Vehicle();
+		Vehicle v2 = new Vehicle();
+		v1.color = "red";
+		v2.horn();
+	}
+}
+```
+
+**ODGOVOR:**
+```
+2
+```
+
+---
+**VPRAŠANJE:**
+
+Prikazana je koda razreda Lettuce. Kdo nariše solato, če dejansko koda tega razreda ne počne nič? Izberi vse pravilne trditve!
+
+```java
+import greenfoot.*; // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Lettuce here.
+ *
+ * @author (your name)
+ * @version (a version number or date)
+ */
+public class Lettuce extends Actor
+{
+	/**
+	 * Act - do whatever the Lettuce wants to do. This method is called whenever
+	 * the 'Act' or 'Run' button gets pressed in the evnironment.
+	 */
+	public void ac ()
+	{
+		// Add your action code here.
+	}
+}
+```
+
+**ODGOVOR:**
+```
+Samo okolje Greenfoot, ki sproti v zanki izrisuje grafično podobo vseh likov (objektov), ki so potomci razredov Actor in World
+```
+
+---
+**VPRAŠANJE:**
+
+V katerih vrsticah  je napaka v prikazanem programu?
+
+```java
+class MyClass {
+
+	static void sayHello() {
+		System out println("Hello World!");
+	}
+
+	public static void main(String[ ] args) {
+		sayHello();
+		sayHello();
+		sayHello();
+	}
+	
+}
+```
+
+**ODGOVOR:**
+```
+4
+```
+
+---
+**VPRAŠANJE:**
+
+Izberi vse pravilne trditve.
+
+**ODGOVOR:**
+```
+The constructor is called when you create an object using the new keyword.
+```
+
+---
+**VPRAŠANJE:**
+
+Koliko novih objektov tvorimo v metodi main()?
+
+```java
+public class Vehicle {
+	private String color;
+
+	Vehicle() {
+		this.setColor("Red");
+	}
+	Vehicle(String c){
+		this.setColor(c);
+	}
+
+	// Setter
+	public void setColor(String c) {
+		this.color = c;
+	}
+
+	// Getter
+	public String getColor() {
+		return color;
+	}
+}
+
+public class Program {
+	public static void main(String[] args) {
+	//color will be "Red"
+	Vehicle v1 = new Vehicle();
+
+	//color will be "Green"
+	Vehicle v2 = new Vehicle("Green");
+
+	System.out.println(v1.getColor());
+	}
+}
+```
+
+**ODGOVOR:**
+```
+2
+```
+
+---
+**VPRAŠANJE:**
+
+True or false:  Methods and classes can also be marked **final**.
+
+**ODGOVOR:**
+```
+True
+```
+
+---
+**VPRAŠANJE:**
+
+True or false: The constructor must have the same name as the class.
+
+**ODGOVOR:**
+```
+True
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami. Presledkov na začetku in koncu ne sme biti.
+
+```
+Drag and drop from the options below to define a class with these attributes: age of type integer, height as a double, and name as a string.
+
+[ ] Person {
+ [ ] age;
+ [ ] height;
+ [ ] name;
+}
+```
+
+**ODGOVOR:**
+```
+class int double String
+```
+
+---
+**VPRAŠANJE:**
+
+Izberi vse pravilne trditve. Prikazan je del kode razreda Snake.
+
+```java
+public class Snake extends Animal
+{
+	public void act ()
+	{
+		move (4);
+		randomTurn ();
+		turnAtEdge ();
+		tryToEatTurtle ();
+	}
+
+	/**
+	 * With a 10% probability, turn a bit right or left.
+	 */
+	public void randomTurn()
+	{
+		if ( Greenfoor.getRandomNumber(100) < 10 )
+		{
+			turn( Greenfoot.getRandomNumber(40)-20 );
+		}
+	}
+}
+```
+
+**ODGOVOR:**
+```
+Metoda getRandomNumber() je statična metoda.
+```
+```
+Prikazana metoda randomTurn() je metoda razreda Snake.
+```
+```
+Prikazana metoda act() je metoda razreda Snake.
+```
+
+---
+**VPRAŠANJE:**
+
+Za podano trditev izberi vse pravilne odgovore. Če niso izbrani vsi pravilni odgovor ni točk.
+
+`The following choices are available for attributes and methods:`
+
+**ODGOVOR:**
+```
+private: Accessible only within the declared class itself.
+```
+```
+default: A variable or method declared with no access control modifier is available to any other class in the same package.
+```
+```
+public: Accessible from any other class.
+```
+```
+protected: Provides the same access as the default access modifier, with the addition that subclasses can access protected methods and variables of the superclass (Subclasses and superclasses are covered in upcoming lessons).
+```
+
+---
+**VPRAŠANJE:**
+
+Koliko metod je napisanih v naslednjem programu? Vsak konstruktor štej kot eno metodo.
+
+```java
+public class Vehicle {
+	private String color;
+
+	Vehicle() {
+		this.setColor("Red");
+	}
+	Vehicle(String c){
+		this.setColor(c);
+	}
+
+	// Setter
+	public void setColor(String c) {
+		this.color = c;
+	}
+
+	// Getter
+	public String getColor() {
+		return color;
+	}
+}
+
+public class Program {
+	public static void main(String[] args) {
+	//color will be "Red"
+	Vehicle v1 = new Vehicle();
+
+	//color will be "Green"
+	Vehicle v2 = new Vehicle("Green");
+
+	System.out.println(v1.getColor());
+	}
+}
+```
+
+**ODGOVOR:**
+```
+5
+```
+
+---
+**VPRAŠANJE:**
+
+Ali rešitev naloge za podano besedilo deluje, torej nima napak, ali ne deluje, torej ima napake? Na kratko, ali podan program deluje skladno s podanim besedilom?
+
+```java
+/**
+ * Napišite kodo za algorite, ki uporabniku omogoči vnos števila.
+ * Če je prebrano število enomestno (od 0 do 9),
+ * se na standardni izhod izpiše besedilo "Število je enomestno.",
+ * v nasprotnem pa "Število je večmestno.".
+ * Vnos negativnih števil nas ne zanima in ga odmislimo!
+ */
+
+import java.util.Scanner;
+public class Naloga_Dx {
+
+	public static void main(String[] args) {
+		System.out.print("Vnesite število: ");
+		Scanner vhod = new Scanner(System.in);
+		int vnos = vhod.nextInt();
+		if(vnos<10)
+			System.out.println("Število je enomestno.");
+		else
+			System.out.println("Število je večmestno.");
+		vhod.close();
+	}
+	
+}
+```
+
+**ODGOVOR:**
+```
+DA
+```
+
+---
+**VPRAŠANJE:**
+
+Object-Orientation A class defines... (choose two) Select All That Apply
+
+**ODGOVOR:**
+```
+attributes
+```
+```
+behaviour
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede oziroma dele odgovora, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami oziroma posameznimi deli odgovora. Presledkov na začetku in koncu ne sme biti.
+
+```
+Fill in the blanks to create a class with a single method called "test".
+
+public [ ] A {
+  public void [ ] {
+    System.out.println("Hi");
+  }
+}
+```
+
+**ODGOVOR:**
+```
+class test
+```
+
+---
+**VPRAŠANJE:**
+
+Vnesi besede, ki sestavljajo odgovor. Seveda je pomemben vrstni red besed in velikost črk. Ločiš jih vedno s samo enim presledkom med besedami. Presledkov na začetku in koncu ne sme biti.
+
+```java
+public static void main(String[ ] args) {
+	[ ] x = 10;
+	test([ ]);
+	
+}
+
+static void test(int x) {
+
+	System.out.println(x);
+	
+}
+```
+
+**ODGOVOR:**
+```
+int x
+```
+
+---
+**VPRAŠANJE:**
+
+Which of the following are valid access modifiers? Select All That Apply
+
+**ODGOVOR:**
+```
+public
+```
+```
+protected
+```
+```
+private
+```
+
+---
+**VPRAŠANJE:**
+
+What is the value of the following expression?
+
+`Math.abs(Math.min(-6,3));`
+
+**ODGOVOR:**
+```
+6
 ```

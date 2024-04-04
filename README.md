@@ -1,4 +1,4 @@
-[!WARNING] Za najnovejše odgovore JAVE pojdite na experimental rewrite branch. [link](https://github.com/MuriFlavo/Joze_Strucl_Odgovori/tree/experimental_rewrite)
+>[!WARNING] Za najnovejše odgovore JAVE pojdite na experimental rewrite branch. [link](https://github.com/MuriFlavo/Joze_Strucl_Odgovori/tree/experimental_rewrite)
 # Praksa:
 
 ---

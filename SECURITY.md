@@ -13,7 +13,7 @@ Use this section to inform users about the versions of your project that are cur
 
 Use this section to explain how users can report a vulnerability.
 
-Please direct reports to [rene.potocnik@sers.si]. We aim to respond to vulnerability reports within 1-2 business days and provide regular updates on the status of reported vulnerabilities. 
+Please direct reports to [hose.sers@gmail.com]. We aim to respond to vulnerability reports within 1-2 business days and provide regular updates on the status of reported vulnerabilities. 
 
 Upon receiving a vulnerability report, our security team will evaluate its severity and impact on the project. You can expect an initial response acknowledging the report within 24 hours. 
 
@@ -23,9 +23,6 @@ If the vulnerability is deemed to be outside the scope of our project's security
 
 Thank you for helping us keep our project secure.
 
-# License
-
-This project is licensed under the [MIT License](LICENSE.md).
 
 ## Openness
 

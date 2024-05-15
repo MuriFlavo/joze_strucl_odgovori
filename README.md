@@ -8,7 +8,7 @@ Nekaj info:
 
 # SUPPORT
 
-|     Naloga     |        NUPt        | NUPp               | JAVA               |
+|     Naloga     |   [NUPt](#nupt)    |   [NUPp](#nupp)    |   [JAVA](#java)    |
 | :------------: | :----------------: | ------------------ | ------------------ |
 |     vaja01     | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 |     vaja02     | :white_check_mark: | :white_check_mark: | :white_check_mark: |

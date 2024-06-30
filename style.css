@@ -1,0 +1,275 @@
+:root{
+    --primary-color: #D8AE7E;
+    --secondary-color: #F8C794;
+    --third-color: #FFE0B5;
+    --neutral-color: #FFF2D7;
+    --backgroundColor: #FFFFFF;
+    --gradient-inside: #FFFFFF;
+    --gradient-outside: #FDF7E4;
+}
+
+@keyframes introduction_container_fade_in {
+    0% {
+        opacity: 0.6;
+        transform: translateY(-30px) scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes nupt_fade_in {
+    0% {
+        opacity: 0.6;
+        transform: translateX(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes nupp_fade_in {
+    0% {
+        opacity: 0.6;
+        transform: translateX(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes java_fade_in {
+    0% {
+        opacity: 0.6;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes football_fade_in {
+    0% {
+        opacity: 0.6;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+}
+
+body{
+    background: radial-gradient(var(--gradient-inside), var(--gradient-outside));
+}
+
+html, body {
+    margin: 0;
+    cursor: default;
+    scroll-behavior: smooth;
+    background-color: var(--backgroundColor);
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Make container take the full width */
+    max-width: 1020px; /* Limit the maximum width */
+}
+
+#title{
+    width: 50%;
+    margin-bottom: 20px;
+    opacity: 75%;
+}
+
+#title_gold_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#introduction_text{
+    opacity: 65%;
+}
+
+#introduction_container {
+    height: 280px;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: var(--neutral-color);
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Enable positioning of the GitHub button */
+    transition: transform 0.8s ease, border-radius 1s ease;
+    animation: introduction_container_fade_in 0.8s;
+}
+
+#introduction_container:hover{
+    transform: scale(1.02);
+    border-radius: 15px;
+}
+
+#buttons_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto; /* Push the container to the bottom */
+}
+
+#theme-toggle, #github_button a {
+    width: 113.83px;
+    height: 48px;
+    border: 0 solid #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: color 0.5s ease;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.6s ease, color 0.5s ease;
+}
+
+#github_button{
+    transition: transform 0.6s ease;
+}
+
+#github_button:hover{
+    transform: scale(1.1);
+}
+
+#theme-toggle {
+    background-color: var(--primary-color);
+}
+
+#theme-toggle:hover {
+    opacity: 95%;
+    background-color: var(--secondary-color);
+    transform: scale(1.1);
+}
+
+#github_button a {
+    background-color: var(--primary-color);
+    color: var(--neutral-color);
+    transform: scale(1.1);
+}
+
+#github_button a:hover {
+    opacity: 75%;
+    background-color: var(--secondary-color);
+    transform: scale(1.1);
+    color: #000000;
+}
+
+a, a:visited{
+    text-decoration: none;
+}
+
+.link a{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.link:hover{
+    border-radius: 6px;
+    background-size: 50%;
+    background-color: var(--primary-color);
+    transform: scale(1.01);
+}
+
+.link:hover a{
+    color: #FFFFFF;
+    opacity: 80%;
+    transition: color 0.4s ease;
+}
+
+.links_containers_title {
+    font-weight: 700;
+    opacity: 60%;
+    margin-bottom: 10px;
+}
+
+#links_containers {
+    margin-top: 20px;
+}
+
+.link {
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, transform 1s ease;
+}
+
+#links_containers{
+    display: flex;
+    justify-content: space-between;
+}
+
+#NUPt, #NUPp, #JAVA {
+    width: 326.4px;
+    background-color: var(--neutral-color);
+    border-radius: 7px;
+    padding: 20px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    transition: transform 0.8s ease, border-radius 1s ease;
+}
+
+#NUPt{
+    animation: nupt_fade_in 1s;
+}
+
+#NUPp{
+    animation: nupp_fade_in 1s;
+}
+
+#JAVA{
+    animation: java_fade_in 1s;
+}
+
+#football_info{
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: var(--neutral-color);
+    animation: football_fade_in 1s;
+    transition: transform 0.8s ease, border-radius 1s ease;
+}
+
+#football_info:hover{
+    transform: scale(1.02);
+    border-radius: 15px;
+}
+
+#NUPt:hover, #NUPp:hover, #JAVA:hover{
+    transform: scale(1.03);
+    border-radius: 15px;
+}

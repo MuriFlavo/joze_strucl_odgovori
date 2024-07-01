@@ -61,7 +61,7 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
 
 //nogomet
 var myHeaders = new Headers();
-myHeaders.append("x-rapidapi-key", "API_KEY");
+myHeaders.append("x-rapidapi-key", "bcb69147c8c4bb31e80a41b221d6e63c");
 myHeaders.append("x-rapidapi-host", "v3.football.api-sports.io");
 
 var requestOptions = {

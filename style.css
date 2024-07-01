@@ -95,6 +95,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 40px;
+    padding-bottom: 160px;
     background: radial-gradient(var(--gradient-inside), var(--gradient-outside));
     min-height: 100vh; /* Ensure the body covers the full viewport height */
     background-attachment: fixed; /* Ensure the gradient doesn't cut off */

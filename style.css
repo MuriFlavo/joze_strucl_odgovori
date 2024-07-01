@@ -141,7 +141,13 @@ body {
         padding: 10px; /* Adjust padding for smaller screens */
     }
 
-    #introduction_container p {
+    #football_info {
+        min-height: auto;
+        width: auto; /* Allow height to adjust based on content */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    #introduction_text {
         font-size: 16px; /* Adjust font size for smaller screens */
     }
 }

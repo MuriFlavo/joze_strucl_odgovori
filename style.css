@@ -89,16 +89,17 @@ html, body {
     background-color: var(--backgroundColor);
     height: 100%; /* Ensure full height */
     min-height: 100%; /* Ensure full height */
+    background: radial-gradient(var(--gradient-inside), var(--gradient-outside));
+    background-size: cover; /* Ensure the gradient covers the entire viewport */
+    background-attachment: fixed; /* Ensure the gradient doesn't cut off */
 }
 
 body {
     display: flex;
     justify-content: center;
     padding-top: 40px;
-    padding-bottom: 160px;
-    background: radial-gradient(var(--gradient-inside), var(--gradient-outside));
+    padding-bottom: 40px; /* Adjust padding to avoid white space */
     min-height: 100vh; /* Ensure the body covers the full viewport height */
-    background-attachment: fixed; /* Ensure the gradient doesn't cut off */
 }
 
 #container {
@@ -106,7 +107,7 @@ body {
     flex-direction: column;
     width: 100%; /* Make container take the full width */
     max-width: 1020px; /* Limit the maximum width */
-    min-height: calc(100vh - 40px); /* Ensure container fits within the viewport */
+    min-height: calc(100vh - 80px); /* Adjust to fit within the viewport */
 }
 
 /* Add media queries for responsiveness */
